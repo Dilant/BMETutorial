@@ -9,6 +9,8 @@
   - 实验性元件 `10_[Experimental]Adjustable → *`
 - 新增功能
   - 设置 Ballex 路径以在测图时自动唤起 `Settings → Set Ballex Path`
+- 新增 BUG
+  - 手动导出的 `.bpk` 不包含可形变元件 <badge text="暂未修复" type="error"/>
 
 ## 3.3b5 → 3.3.1b2
 
