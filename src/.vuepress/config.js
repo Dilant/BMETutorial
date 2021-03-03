@@ -32,6 +32,10 @@ module.exports = {
         link: "/advanced/",
       },
       {
+        text: "图鉴",
+        link: "/glossary/",
+      },
+      {
         text: "FAQ",
         link: "/faq/",
       },
@@ -69,6 +73,60 @@ module.exports = {
             {
               title: "前言",
               path: "preface",
+            },
+          ],
+        },
+      ],
+
+      "/glossary/": [
+        {
+          title: "图鉴",
+          path: "/glossary/",
+          collapsable: false,
+          children: [
+            {
+              title: "菜单栏中的元件",
+              path: "assets-in-menu",
+            },
+            {
+              title: "扩展元件",
+              path: "extras",
+            },
+            {
+              title: "机关",
+              path: "machinery",
+            },
+            {
+              title: "钢轨",
+              path: "iron-rail",
+            },
+            {
+              title: "路面",
+              path: "stone-road",
+            },
+            {
+              title: "木板",
+              path: "wood-board",
+            },
+            {
+              title: "冰木板",
+              path: "ice-board",
+            },
+            {
+              title: "水池",
+              path: "pool",
+            },
+            {
+              title: "移动元件",
+              path: "moving-road",
+            },
+            {
+              title: "管道",
+              path: "tube",
+            },
+            {
+              title: "可形变元件",
+              path: "adjustable-road",
             },
           ],
         },
