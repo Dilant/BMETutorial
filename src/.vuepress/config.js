@@ -10,10 +10,7 @@ module.exports = {
    */
   description: description,
 
-  head: [
-    ["link", { rel: "icon", href: "/ballex.ico" }],
-    ["meta", { name: "charset", content: "UTF-8" }],
-  ],
+  head: [["link", { rel: "icon", href: "/ballex.ico" }]],
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -30,7 +27,7 @@ module.exports = {
     nav: [
       {
         text: "起步",
-        link: "/start/preface",
+        link: "/start/",
       },
       {
         text: "进阶",
@@ -55,6 +52,20 @@ module.exports = {
             ],
           },
           {
+            text: "另请参阅",
+            items: [
+              {
+                text: "官方教程",
+                link: "http://steam.ballex.net/bme/tutorialcn.html",
+              },
+              {
+                text: "旧版教程",
+                link:
+                  "https://ballex.dilant.cn/assets/Ballex基础制图教程V1.0.pdf",
+              },
+            ],
+          },
+          {
             text: "彩蛋",
             items: [{ text: "Ballex 周报", link: "/weekly/" }],
           },
@@ -76,8 +87,12 @@ module.exports = {
           collapsable: false,
           children: [
             {
-              title: "前言",
-              path: "preface",
+              title: "制图前准备",
+              path: "preparation",
+            },
+            {
+              title: "测试地图",
+              path: "test-map",
             },
           ],
         },
