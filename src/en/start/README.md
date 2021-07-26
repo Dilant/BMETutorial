@@ -1,0 +1,63 @@
+# Start
+
+::: tip
+
+**This tutorial is written based on Ballex Map Editor 3.5.2b3**, and BME 3.4b3 is the earliest compatible version. (Nevertheless, most of basic operations and some of mapping concepts are shared with even earlier versions of BME. ) See the [changelog](/en/migration/changelog.md) or the [migration guide](/en/migration/guide.md) if you want to upgrade.
+
+:::
+
+::: details Preface by @liusyflat_ab (简体中文)
+
+Ballex 是 Ballance 吧友 MushREB 使用 Unity3D 为引擎，制作的一款与 Ballance 类似的唯美风格滚球游戏。从初代版本开始不断优化，至现在基本的游戏体系已经建立，Ballex 正处于蓬勃向上发展的时期。Ballex 衍生出了两大版块：纪录版块和制图版块。纪录版块主要是针对原版（开发者制作）的关卡，追求更高、更快、更强；制图版块主要是使用开发者建模的各个基本元件来进行自己的创意地图制作。
+
+此教程主要面向新手制图的朋友，当然熟练制图的朋友也可以择选章节浏览，希望这份教程给大家都能带来收获！
+
+欢迎制图经验丰富的朋友对这份教程不完善的地方提建议，我和其他的内测组的朋友们会进一步完善教程。
+
+欢迎进入 Ballex 制图的世界！祝你们都能在这里实现自己的创意，创作出自己理想的地图！
+
+> liusyflat_ab
+> 2019/11/16
+
+:::
+
+::: details Preface by me (简体中文)
+
+一年多前的这个时候，我就说着要写个文采更好的前言把 lsy 的顶掉。那么现在呢？（笑）
+
+当时的契机——也不该这么叫——完全是看了期[影视飓风的视频](https://www.bilibili.com/video/BV187411j7ab)，里面有这么一段话：
+
+> 如果说你想要成长的话，你必须要不断剪辑，剪无数的片子，你才能找到你的风格；这是我没有办法教你的。但我能做的，就是把我这么多年使用工具的经验分享给你，让你先学会怎么用这支笔来写故事。
+
+然后想着能化用一下，嗯，仅此而已。果然啊果然，还是和以前一样幼稚呢……
+
+其实一年前用 BME 3.1 做完《幽》的时候，我就可以自信地说，我完全掌握了制图器的整个体系，灵光乍现之时，即可信手拈来。但真正同时打开 BME 3.2 和 lsy 的初版制图教程，准备着手翻新的时候，忽然就生发出心余力绌的感觉。我不知道该怎样清晰地描述其中的缘由；一方面，目前的体系实在背离直觉，这就需要详细阐明进行特定操作的原因和目的；另一方面，为了实现一些看上去很简单（实际上做不到）的效果，在这么一份可以说是文档性质的教程里大量推崇变通方案，显然不是明智之举。
+
+一晃眼，一年就过去了。期间我确实是试着写了一些，写了基本操作、顶点对齐和测图，挂在自己的服务器上；大概两三个月前，又开辟了元件图鉴的板块，记录各个元件的用法和性质。但效果呢？除了比 lsy 编写的旧版教程更易于检索（真的有人会 `Ctrl + F` 么？），元件图鉴有所跟进，别的只能说是自愧弗如。驱动着制图教程的 Hexo 框架也不尽人意，尤其是大大限制了各章节分页布局，还得感激后来 Vuepress 救场。
+
+这一年里，制图圈也发生了很多令人激奋的事。最震撼的当属 @z2414 半路杀出，半年时间贡献了 40 多张地图；其次是里程碑意义的 Ballex 1.3.3 和 BME 3.3.1，修复了大量的历史遗留 bug，全面改善了制图体验；还有备受瞩目的第三届精品自制图评选，相信各位都体会到了神仙打架的氛围。
+
+但，看遍了各位老制图者的佳作，那些还在摸索 BME 3.1 的新人呢？
+
+尽情嘲笑完一些图后，我愈发觉得，无论是旧版教程，还是“新版的”旧版教程，都有一个致命问题：只把所有元件和功能陈列出来，靠制图者自己摸索、取舍和搭配，是完全不够的；即便有了众多的精选地图作为榜样，其实也很难与具体的实现方法相结合。在最常用的组合技上，应该提供一些方法论——至少最影响观感的对齐问题和纹理问题，至少局限在最常用的路面和钢轨，我应当能帮上一把。
+
+BME 3.4 的诞生，全新 A 路面和 AS 路面的加入，终于颠覆了老朽的碎积木一般的拼接理念。长度以格为单位的路面和钢轨，以及可以拼出任意单格样式的角块，这才符合人们的直觉，才是格点制图本该有的模样。现在就是制图教程完全重写的最好时机，我终于可以抛掉缝缝补补的包袱，铺开全新的工作流，从上手，到制作，再到测试和最终发布，一步步地教给大家。
+
+于是，就有了大家现在看到的，这份全新的制图教程。
+
+读到这儿的朋友，欢迎踏进 Ballex —— 以及 [Ballex²](https://ballex2.dilant.cn)——制图的大门。
+
+> Dilant
+> 2021/3/21
+
+:::
+
+If you've been exposed to Unity, or if you're highly perceptive, here are the keys:
+
+- No `Assets`? [Import them](/en/start/preparation.md#import-assets) first.
+- Look up in the [glossary](/en/glossary/). For example, there's what you want in `04_StoneRoad → 1_Construct → 1_Cap`.
+- You can [set the coordinates](/start/alignment.md#坐标对齐) in `Inspector` window or long press `V` to [align the vertices](/start/alignment.md#顶点对齐).
+- Master the [shortcuts](/start/shortcuts.md).
+- Spare some time to [test map](/start/test-map.md), test map, and test map.
+
+~~Great! Now you've got it!~~
