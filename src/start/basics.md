@@ -21,7 +21,7 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 - Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\MyBallexMap\Assets\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/MyBallexMap/Assets/`
 
-`.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` 三个一组。**一般情况下，请勿手动处理该文件夹内容。**[事故现场](/faq/#根目录不显示)
+`.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` 三个一组。**一般情况下，请勿手动处理该文件夹内容。**[事故现场](/faq/#已导入元件但根目录不显示)
 
 :::
 
@@ -29,15 +29,13 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 在 `Project` 窗口中找到需要的元件，拖入 `Scene` 窗口，即可添加元件。你会在 `Hierarchy` 窗口的列表末尾看到它，并可在 `Inspector` 窗口中调整它的位置，姿态，缩放和其它提供的参数。
 
-现在，你可以任意拖入一些元件摆弄一番了。啊对，要是每个元件都得调五六个参数的话，会要蘑菇命的。（笑）
-
-> 迪兰特：我相信人类的悟性，“之后会讲方便得多的调整方法”，这种后半句不用我来补了吧。
+现在，你可以任意拖入一些元件摆弄一番了。之后会讲方便得多的调整方法。
 
 ## 撤销与还原
 
 `Ctrl + Z` `Ctrl + Y`，对应右上角工具栏前两个按钮。
 
-不过由于 Unity 蛋疼的撤销栈设计，请勿过分依赖撤销与还原操作，进行破坏性操作前请注意备份。
+不过请勿过分依赖撤销与还原操作，进行破坏性操作前请注意备份。
 
 ~~我在冰与火之舞和节奏医生制谱器深受其害（摔~~
 
@@ -150,11 +148,11 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 `File → Test Map`
 
-如果你[正确设置了 Ballex 路径](/start/preparation.md#设置-ballex-路径)，Ballex 将自动启动并进入测图模式。
+如果你正确[设置了 Ballex 路径](/start/preparation.md#设置-ballex-路径)，Ballex 将自动启动并进入测图模式。
 
 ::: tip
 
-测图模式无法激活终点。如果有必要，请进行换源测试——如果你确实有这一需要，应该不需要我来讲解如何换源测试了。
+测图模式无法激活终点。
 
 如果地图已经完成，正在进行最终测试，[这里](/start/test-map.md)提供了一些参考检查点。
 
@@ -174,7 +172,9 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 `Ctrl + G`，按下开启，再次按下关闭。
 
-飞行状态开启后，球不再受重力作用。~~但可能被阴间恒加速度场送走~~ `W` 键上升，`S` 键下降，暂不支持更改。
+飞行状态开启后，球不再受重力作用。~~但可能被阴间恒加速度场送走~~
+
+`W` 键上升，`S` 键下降，暂不支持更改。
 
 ### 截图
 

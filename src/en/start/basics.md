@@ -1,193 +1,193 @@
-# 基本操作
+# Basic Operations
 
-## 添加地图信息
+## Create Level Info
 
 `Create → Create Level Info`
 
-First things first. 为了避免各种各样的奇葩情况，请养成首先添加地图信息的习惯。[事故现场](/faq/#测图时天气或出生球种和设定不一致)
+First things first. Remember to always do this instantly after creating a new map so as to avoid weird things. [Scene of accident](/en/faq/#weather-or-initial-ball-type-doesn-t-match-the-settings-when-testing-map)
 
-[在此](/glossary/assets-in-menu.md#地图信息)查看地图信息填写说明。
+See how to fill it in [here](/glossary/assets-in-menu.md#地图信息).
 
-## 保存
+## Save
 
 `File → Save Scene` / `Ctrl + S`
 
-保存后的地图会在 `Project` 窗口中出现，可以双击打开。
+Saved maps will appear in `Project` window and can be double-clicked to open.
 
 ::: tip
 
-地图实际保存位置为：
+The saving path on disk is:
 
 - Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\MyBallexMap\Assets\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/MyBallexMap/Assets/`
 
-`.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` 三个一组。**一般情况下，请勿手动处理该文件夹内容。**[事故现场](/faq/#根目录不显示)
+`.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` three files for one map. **In general cases, don't manipulate them directly.** [Scene of accident](/en/faq/#assets-are-imported-but-not-showing-up)
 
 :::
 
-## 添加元件
+## Add objects
 
-在 `Project` 窗口中找到需要的元件，拖入 `Scene` 窗口，即可添加元件。你会在 `Hierarchy` 窗口的列表末尾看到它，并可在 `Inspector` 窗口中调整它的位置，姿态，缩放和其它提供的参数。
+Find the needed asset in `Project` window and drag it into `Scene` window. You'll see it in `Hierarchy` window at the end of the list, and you can change its position, posture or other parameters in `Inspector` window.
 
-现在，你可以任意拖入一些元件摆弄一番了。啊对，要是每个元件都得调五六个参数的话，会要蘑菇命的。（笑）
+Now you can place any objects you want -- and know that much more convenient ways of adjusting an object will be introduced later.
 
-> 迪兰特：我相信人类的悟性，“之后会讲方便得多的调整方法”，这种后半句不用我来补了吧。
+## Undo and Redo
 
-## 撤销与还原
+`Ctrl + Z` `Ctrl + Y`, also #1 #2 buttons of toolbar.
 
-`Ctrl + Z` `Ctrl + Y`，对应右上角工具栏前两个按钮。
+But don't rely on them, and always make a backup before making breaking changes.
 
-不过由于 Unity 蛋疼的撤销栈设计，请勿过分依赖撤销与还原操作，进行破坏性操作前请注意备份。
+~~I just can't bear the level editor of _ADOFAI_ or _Rhythm Doctor_~~
 
-~~我在冰与火之舞和节奏医生制谱器深受其害（摔~~
+## Adjust View
 
-## 视图调整
+### Move the View
 
-### 平移视图
+Use `MouseRight` and drag.
 
-按住 `鼠标右键` 并拖动。
+### Rotate the View
 
-### 旋转视图
+Use `Alt + MouseLeft` and drag.
 
-按住 `Alt + 鼠标左键` 并拖动。
+### Scale the View
 
-### 缩放视图
+Use `MouseScroll`.
 
-使用 `鼠标滚轮`。
+### Focus
 
-### 聚焦
+`F`, press to trigger.
 
-`F`，按下触发。
-
-该功能将自动调整视图，使选定元件位于视野中心，并改变视图调整中心点为当前位置。
+The view will automatically change to focus on the selected object, and set current position as the center of view adjustments.
 
 ::: tip
 
-所有视图调整操作的效果都与视图调整中心点有关。如果调整时遇到困难，可以尝试使用聚焦功能改变视图调整中心。
+All view adjustments are based on this center. Try to focus and change it if it's hard to change the view.
 
 :::
 
-### 三视图
+### Three Views
 
-点击右上角坐标轴箭头。
+Click the arrows of the coordinate axis.
 
-### 切换透视 / 正交视角
+### Toggle Perspective / Orthogonal View
 
-右上角坐标轴下方显示了当前视角（透视 `Persp` / 正交 `Ortho`），点击即可切换。正交视角在精调布局时很有用。
+Current view (`Persp` / `Ortho`) is shown under the coordinate axis, and can be clicked to toggle. Orthogonal view excels at fine-tuning layouts.
 
-## 元件调整
+## Adjusting Objects
 
-### 观察模式
+### View Mode
 
-`Q`，按下切换，对应右上角工具栏第 3 个按钮。
+`Q`, press to enable, also #3 button of toolbar.
 
-该模式下无法选中元件，也无法对元件作任何调整，~~防止手贱~~ 一般没什么用。
+You can't select or make any change to objects ~~to avoid misoperations.~~ We don't use it often.
 
-### 移动模式
+### Move Mode
 
-`W`，按下切换，对应右上角工具栏第 4 个按钮。
+`W`, press to enable, also #4 button of toolbar.
 
-拖动三个坐标轴箭头在该方向内移动元件，或拖动面符号在该面内移动元件。
+Drag the arrows to move an object in corresponding directions, or drag the plane symbols to move it in corresponding planes.
 
-### 旋转模式
+### Rotate Mode
 
-`E`，按下切换，对应右上角工具栏第 5 个按钮。
+`E`, press to enable, also #5 button of toolbar.
 
-拖动三个有色圆弧在对应面内旋转元件，或拖动白色大圆在投影面内旋转元件，或拖动圆面 ~~放飞自我~~ 自由旋转元件。
+Drag the colored arcs to rotate the object in corresponding planes, or drag the white arc to rotate it in the projection plane, or drag the surface to ~~let it go~~ rotate it freely.
 
-### 缩放模式
+### Scale Mode
 
-`R`，按下切换，对应右上角工具栏第 6 个按钮。
+`R`, press to enable, also #6 button of toolbar.
 
-拖动三个操作柄在该方向内缩放元件。可以拖动到负半轴，此时元件会变为原来的镜像。
+Drag the handles to scale the object in corresponding directions. The opposite direction means mirroring.
 
 ::: warning
 
-对于固定元件，多数情况下不需要缩放；对于机关，多数机关缩放后会引发意外性质。因此在有其它可行方案时，请不要缩放元件。
+For fixed objects, there's no need to scale them in most cases. For machinery, most of them behave improperly when scaled. So, don't scale an object unless there's no other way.
 
 :::
 
-### 量化
+### Quantization
 
-`Ctrl`，按住开启，松开关闭。
+`Ctrl`, hold to enable and release to disable.
 
-在量化开启时，可以以 1 为单位移动，以 15° 为单位旋转，以相对当前大小 10% 为单位缩放。
+When enabled, the units of move, rotate and scale operations are 1 absolutely, 15° absolutely and 10% relatively, correspondingly.
 
-## 多选
+## Multi-select
 
-在 `Scene` 窗口中多选：按住 `鼠标左键` 并框选。
-在 `Hierarchy` 窗口中多选：可按照通用多选方法配合 `Ctrl` `Shift` 多选。
+In `Scene` window: Hold `MouseLeft` and box-select.
+In `Hierarchy` window: Use `Ctrl` `Shift` in common sense.
 
 ::: tip
 
-在 `Scene` 窗口中多选时，将按照正交视角判定，碰撞箱**任意部位**进入选框即视为选中。
+The seletion field is judged in orthogonal view, and an object is selected if **any part of it** is in the field.
 
-为了尽量避免选中不需要的元件，建议使用[正交](/start/basics.md#切换透视-正交视角)、[俯视](/start/basics.md#三视图)视角操作。
+In order not to select any unneeded object, we recommend using [orthogonal](/en/start/basics.html#toggle-perspective-orthogonal-view) and [overlook](/en/start/basics.html#three-views) view to multi-select.
 
 :::
 
-## 复制元件
+## Duplicate Objects
 
 `Ctrl + D`
 
-按下后在原位生成一个新元件，出现在 `Hierarchy` 窗口列表末尾，带有 `(Clone)` 字样。
+A copy will be created at the same position, named `(Clone)` in `Hierarchy` window at the end of the list.
 
-虽然但是，没有 `Ctrl + X` `Ctrl + C` `Ctrl + V`。
+Sorry but there's no `Ctrl + X` `Ctrl + C` `Ctrl + V`.
 
-## 删除元件
+## Delete Objects
 
 `Delete`
 
-## 创建存档点和终点
+## Create Savepoints and Destination
 
 `Create → SavePoints`
 
-需要特别注意：**存档点必须按顺序触发，然后才能触发终点。**
+Note that **savepoints must be activated in order, then destination**.
 
-参见：[图鉴 → 菜单栏中的元件 → 存档点和终点](/glossary/assets-in-menu.md#存档点和终点)
+See: [图鉴 → 菜单栏中的元件 → 存档点和终点](/glossary/assets-in-menu.md#存档点和终点)
 
-## 测试地图
+## Test Map
 
 `File → Test Map`
 
-如果你[正确设置了 Ballex 路径](/en/start/preparation.md#set-ballex-path)，Ballex 将自动启动并进入测图模式。
+Ballex will launch automatically and enter maptest mode if you've [set Ballex path](/en/start/preparation.md#set-ballex-path) correctly.
 
 ::: tip
 
-测图模式无法激活终点。如果有必要，请进行换源测试——如果你确实有这一需要，应该不需要我来讲解如何换源测试了。
+Destination can't be activated in maptest mode.
 
-如果地图已经完成，正在进行最终测试，[这里](/start/test-map.md)提供了一些参考检查点。
+[Here](/en/start/test-map.md) is a checklist for your reference if you've finished your map and are doing final tests.
 
 :::
 
-### 当前坐标
+### Current Position
 
-右上角信息中 `Coord. (x, y, z)` 即为玩家球球心坐标。在 ~~大物实验~~ 制作自动图或一些特殊玩法中也许有用。
+`Coord. (x, y, z)` shows the coordinate of player ball center.
 
-~~以及注意坐标系，例如重力沿 Y 轴负方向~~
+~~Be aware of the coordinate axis, for example the gravity applies opposite to Y axis~~
 
-### 跳节
+### Skip to Next Savepoint
 
 `Ctrl + P`
 
-### 飞行
+### Flying
 
-`Ctrl + G`，按下开启，再次按下关闭。
+`Ctrl + G`, press to toggle.
 
-飞行状态开启后，球不再受重力作用。~~但可能被阴间恒加速度场送走~~ `W` 键上升，`S` 键下降，暂不支持更改。
+When enabled, the player ball is not affected by gravity. ~~But can be trolled by constant acceleration fields~~
 
-### 截图
+Use `W` to go up and `S` down. (Can't change now)
+
+### Screenshot
 
 `Ctrl + C`
 
-可调整距离 `CameraDistance`，高度 `CameraAltitude`，视场角 `CameraFOV`，偏航角 `CameraYaw`，俯仰角 `CameraPitch`，横滚角 `CameraRoll`六个参数。截图为 1920×1080 `.jpg` 文件，保存在：
+You can change `CameraDistance`, `CameraAltitude`, `CameraFOV`, `CameraYaw`, `CameraPitch` and `CameraRoll`. The screenshot is 1920×1080 in `.jpg` format and saved at:
 
 - Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex\ScreenShots`
 - Mac: `~/Library/Application Support/com.MushREB.Ballex/ScreenShots`
 
-### 自动备份
+### Auto Backup
 
-每次测试地图，会导出一份 `.bpk` 格式的备份，可用于意外情况下的地图恢复：
+A `.bpk` backup will be generated before every maptest and can be used for rescue:
 
 - Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\Maps\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/Maps/`
