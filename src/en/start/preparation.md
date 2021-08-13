@@ -37,7 +37,7 @@ Drag to resize or move them. You can maximize, resume or close them, and closed 
 
 `Settings → Set Ballex Path`
 
-You can choose either stable or beta version. When you enter map test mode, it will launch automatically.
+It should end in `Ballex.exe`, either stable or beta version. When you enter map test mode, it will launch automatically.
 
 ## Windows
 
@@ -67,13 +67,13 @@ Display all assets and maps in the project.
 
 `File → Manage Projects`
 
-It arms you when, for example, you want to make a series of maps. But under most circumstances, it's enough to only use the default project `MyBallexMap` .
+It arms you when, for example, you want to make a series of maps. But under most circumstances, it's enough to only use the default project `NewProject` .
 
 **Retain at least one project** so as to avoid any problems.
 
 ::: tip
 
-In this tutorial, everything is based on the default project `MyBallexMap`.
+In this tutorial, everything is based on the default project `NewProject`.
 
 :::
 

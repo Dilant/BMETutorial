@@ -1,6 +1,6 @@
 {
   "name": "bme-tutorial",
-  "version": "3.5.2",
+  "version": "3.5.3",
   "description": "Ballex 制图教程的 VuePress 源码",
   "private": true,
   "scripts": {

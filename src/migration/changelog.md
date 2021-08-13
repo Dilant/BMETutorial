@@ -1,11 +1,20 @@
 # 更新日志
 
+## 3.5.2b3 → 3.5.3b2
+
+- 新增元件 `Assets → ...`
+  - 三棱柱 `02_Machinery → M_TriPrismB1`
+  - 某块修复的单格路面拼接件 `04_StoneRoad → 10_CornerCreator → CornerCreator5_5Fix`
+- 新增功能
+  - 默认工程由 `MyBallexMap` 改为 `NewProject`
+
 ## 3.5.1b1 → 3.5.2b3
 
 - 新增功能
   - 导入 BME Pro 制作的 `.bitem` 格式自定义元件 `File → Unpack BItem`
 - 新增 bug
-  - 无法打开先前版本制作的带有文字的地图 <badge text="暂未修复" type="danger"/>
+  - 无法打开先前版本制作的带有文字的地图 <badge text="3.5.3b2" type="warning"/>
+  - 无法上传带有自定义元件的地图 <badge text="3.5.3b2"/>
 
 ## 3.4b3 → 3.5.1b1
 
@@ -28,7 +37,7 @@
 - 新增 bug
   - 手动导出的 `.bpk` 文件不包含可形变元件 <badge text="暂未修复" type="danger"/>
 
-## 3.3b5 → 3.3.1b2
+## 3.3.0b5 → 3.3.1b2
 
 - 新增元件 `Assets → ...`
   - 自带冰块底座的冰球变球器 `01_Extras → 2_BallSwitcher → SwitchBall_Ice_WithCube`
@@ -48,7 +57,7 @@
 - 新增 bug
   - 从 `.bpk` 导入的传送门可以点选或框选，但直接添加的仍然不能 <badge text="暂未修复" type="danger"/>
 
-## 3.2b11 → 3.3b5
+## 3.2b11 → 3.3.0b5
 
 - 新增元件 `Assets → ...`
   - 传送门 `02_Machinery → M_TransferDoor`
@@ -61,7 +70,7 @@
   - 贴图问题得以缓解，但仍存在偏色和丢失问题 <badge text="3.3.1b2"/>
   - 打包为 `.bpk` 文件时文字损坏，导致解包后地图无法导出 <badge text="3.3.1b2"/>
   - `CornerCreator5_2` `CornerCreator5_3` 建模错误 <badge text="3.3.1b2"/>
-  - `CornerCreator5_5` 建模错误 <badge text="暂未修复" type="danger"/>
+  - `CornerCreator5_5` 建模错误 <badge text="3.5.3b2"/>
   - 雾天气时本体测试截图背景丢失 <badge text="3.3.1b2"/>
   - 传送门无法点选或框选 <badge text="3.3.1b2" type="warning"/>
 
@@ -96,5 +105,5 @@
   - 晚霞 `SunsetGlow`
   - 深渊 `Abyss`
 - 新增 bug
-  - 多数新增元件在测图器中无法正常工作 <badge text="3.3b5"/>
+  - 多数新增元件在测图器中无法正常工作 <badge text="3.3.0b5"/>
   - T 板、钢琴、活塞、激光门、激光摆无法框选 <badge text="暂未修复" type="danger"/>

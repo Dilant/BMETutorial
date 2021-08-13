@@ -1,11 +1,20 @@
 # Changelog
 
+## 3.5.2b3 → 3.5.3b2
+
+- New assets `Assets → ...`
+  - Triangle prism `02_Machinery → M_TriPrismB1`
+  - A fixed corner creator `04_StoneRoad → 10_CornerCreator → CornerCreator5_5Fix`
+- New features
+  - The default project changes from `MyBallexMap` to `NewProject`
+
 ## 3.5.1b1 → 3.5.2b3
 
 - New features
   - Import `.bitem` custom objects made by BME Pro `File → Unpack BItem`
 - Known bugs
-  - Can't open maps with texts made by earlier versions <badge text="Not fixed" type="danger"/>
+  - Can't open maps with texts made by earlier versions <badge text="3.5.3b2" type="warning"/>
+  - Can't upload maps with custom items <badge text="3.5.3b2"/>
 
 ## 3.4b3 → 3.5.1b1
 
@@ -28,7 +37,7 @@
 - Known bugs
   - Manually exported `.bpk` files don't include adjustable assets <badge text="Not fixed" type="danger"/>
 
-## 3.3b5 → 3.3.1b2
+## 3.3.0b5 → 3.3.1b2
 
 - New assets `Assets → ...`
   - Iceball switcher with an ice cube `01_Extras → 2_BallSwitcher → SwitchBall_Ice_WithCube`
@@ -48,7 +57,7 @@
 - Known bugs
   - Can't select or multiselect transfer doors added directory (but ones unpacked from `.bpk` files can) <badge text="Not fixed" type="danger"/>
 
-## 3.2b11 → 3.3b5
+## 3.2b11 → 3.3.0b5
 
 - New assets `Assets → ...`
   - Transfer door `02_Machinery → M_TransferDoor`
@@ -61,7 +70,7 @@
   - The texture problems are relieved but not solved <badge text="3.3.1b2"/>
   - Can't re-export unpacked `.bpk` maps due to corrupted text <badge text="3.3.1b2"/>
   - Wrong model of `CornerCreator5_2` and `CornerCreator5_3` <badge text="3.3.1b2"/>
-  - Wrong model of `CornerCreator5_5` <badge text="Not fixed" type="danger"/>
+  - Wrong model of `CornerCreator5_5` <badge text="3.5.3b2"/>
   - Haze background is missing when taking screenshots <badge text="3.3.1b2"/>
   - Can't select or multiselect transfer doors <badge text="3.3.1b2" type="warning"/>
 
@@ -96,5 +105,5 @@
   - Sunset glow `SunsetGlow`
   - Abyss `Abyss`
 - Known bugs
-  - Maptester works improperly with new assets <badge text="3.3b5"/>
+  - Maptester works improperly with new assets <badge text="3.3.0b5"/>
   - Can't multiselect T boards, pianos, pushers, laser-locked doors or laser pushes <badge text="Not fixed" type="danger"/>

@@ -17,7 +17,7 @@ sidebar: auto
 - 存在损坏的地图文件
 - 存在内部编号相同的冲突地图文件
 
-一般情况下，请勿手动更改项目目录，尤其请勿用外来地图替换现有地图。制图者间应始终使用 `.bpk` 文件交流，并通过制图器内的打包和解包功能处理地图。由于排查原因和解决问题的步骤都较为复杂，建议立即在 [QQ 群（700371890）](https://jq.qq.com/?_wv=1027&k=LhtfLbqL)或 [Discord 服务器（Ballex）](https://discord.gg/CwC7u2wFmJ)中寻求帮助。
+一般情况下，请勿手动更改项目目录，尤其请勿用外来地图替换现有地图。制图者间应始终使用 `.bms` 文件交流，并通过制图器内的打包和解包功能处理地图。由于排查原因和解决问题的步骤都较为复杂，建议立即在 [QQ 群（700371890）](https://jq.qq.com/?_wv=1027&k=LhtfLbqL)或 [Discord 服务器（Ballex）](https://discord.gg/CwC7u2wFmJ)中寻求帮助。
 
 ## 导入 / 导出操作确定后无反应 <badge text="Windows" type="warning"/>
 

@@ -2,7 +2,7 @@
 
 ::: tip
 
-**本教程基于 Ballex Map Editor 3.5.2b3 编写**，向下兼容至 BME 3.4b3，不支持更低版本（尽管大多数基本操作和部分制图理念仍然通用）。[在此](/migration/changelog.md)查看各版本简要更新日志。如果你正在使用低版本，可以参考[升级指南](/migration/guide.md)。
+**本教程基于 Ballex Map Editor 3.5.3b2 编写**，不支持更低版本（尽管大多数基本操作和部分制图理念仍然通用）。[在此](/migration/changelog.md)查看各版本简要更新日志。如果你正在使用低版本，可以参考[升级指南](/migration/guide.md)。
 
 :::
 

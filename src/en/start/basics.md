@@ -18,8 +18,8 @@ Saved maps will appear in `Project` window and can be double-clicked to open.
 
 The saving path on disk is:
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\MyBallexMap\Assets\`
-- Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/MyBallexMap/Assets/`
+- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\NewProject\Assets\`
+- Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/NewProject/Assets/`
 
 `.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` three files for one map. **In general cases, don't manipulate them directly.** [Scene of accident](/en/faq/#assets-are-imported-but-not-showing-up)
 

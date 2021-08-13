@@ -18,8 +18,8 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 地图实际保存位置为：
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\MyBallexMap\Assets\`
-- Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/MyBallexMap/Assets/`
+- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\NewProject\Assets\`
+- Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/NewProject/Assets/`
 
 `.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` 三个一组。**一般情况下，请勿手动处理该文件夹内容。**[事故现场](/faq/#已导入元件但根目录不显示)
 
