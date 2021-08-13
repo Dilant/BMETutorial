@@ -5,8 +5,8 @@
 - New assets `Assets → ...`
   - Triangle prism `02_Machinery → M_TriPrismB1`
   - A fixed corner creator `04_StoneRoad → 10_CornerCreator → CornerCreator5_5Fix`
-- New features
-  - The default project changes from `MyBallexMap` to `NewProject`
+- The default project changes from `MyBallexMap` to `NewProject`
+- From now on new versions of BME will be deployed to Steam
 
 ## 3.5.1b1 → 3.5.2b3
 

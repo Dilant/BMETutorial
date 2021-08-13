@@ -5,8 +5,8 @@
 - 新增元件 `Assets → ...`
   - 三棱柱 `02_Machinery → M_TriPrismB1`
   - 某块修复的单格路面拼接件 `04_StoneRoad → 10_CornerCreator → CornerCreator5_5Fix`
-- 新增功能
-  - 默认工程由 `MyBallexMap` 改为 `NewProject`
+- 默认工程由 `MyBallexMap` 改为 `NewProject`
+- 从本版开始新版 BME 将在 Steam 推送
 
 ## 3.5.1b1 → 3.5.2b3
 
