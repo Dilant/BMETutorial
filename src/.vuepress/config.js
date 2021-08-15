@@ -415,7 +415,7 @@ module.exports = {
   },
 
   plugins: [
-    ["shiki", { theme: "dark_plus" }],
+    ["@vuepress/plugin-shiki", { theme: "dark-plus" }],
     [
       "@vuepress/plugin-search",
       {
