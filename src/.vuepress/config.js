@@ -7,12 +7,12 @@ module.exports = {
     "/": {
       lang: "zh-CN",
       title: "Ballex 制图教程",
-      description: "基于 Ballex Map Editor 3.5.2b3 编写",
+      description: "基于 Ballex Map Editor 3.5.3b2 编写",
     },
     "/en/": {
       lang: "en-US",
       title: "Ballex Mapping Tutorial",
-      description: "Based on Ballex Map Editor 3.5.2b3",
+      description: "Based on Ballex Map Editor 3.5.3b2",
     },
   },
 

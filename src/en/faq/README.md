@@ -31,6 +31,14 @@ Use another readable / writable path **except for root directory of a disk**.
 
 :::
 
+## Importing `.bms` process stops at 88%
+
+Linking custom items failed.
+
+- Check if all `.bitem` files of custom items exist.
+- If it's other's map, fetch these files and place them in the directory assigned by the map.
+- Close the import window, export `.bms` and re-import the new `.bms` file can successfully import it with all custom items dropped.
+
 ## Not responding to keyboard input
 
 - Minimize and then resume the map editor window
@@ -61,6 +69,13 @@ Writing files failed. The map name shouldn't contain special characters.
 
 - Win: `\/:*?"<>|`
 - Mac: `/:` and not starting with `.`
+
+## Ballex loading stops at 53% when testing map
+
+Linking custom items failed.
+
+- Check if all `.bitem` files of custom items exist.
+- If it's other's map, fetch these files and place them in the directory assigned by the map.
 
 ## Failed to connect to Steam
 
