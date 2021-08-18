@@ -29,7 +29,7 @@
 
 - 新增元件 `Assets → ...`
   - ST 护栏底座 `04_StoneRoad → 9_Others → SO_SmallBlock`
-  - 全新的可形变元件和分段形变元件 `10_AdjustableRoad → *`
+  - 全新的单段形变元件和分段形变元件 `10_AdjustableRoad → *`
 - 移除元件 `Assets → ...`
   - 实验性元件 `10_[Experimental]Adjustable → *`
 - 新增功能

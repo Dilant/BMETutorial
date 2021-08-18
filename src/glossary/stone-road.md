@@ -37,6 +37,12 @@
 
 `2_LargeConcaveSide`
 
+::: tip
+
+建议使用 `[A]StoneLargeConcaveHalf` 代替。
+
+:::
+
 命名格式为 `SCS_a_b`。`a` 为倾角，`b` 为到平面的投影长度。
 
 这类路面宽度为 1 格，仅单边有花纹，另一边和两端缺面。
