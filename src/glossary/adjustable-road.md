@@ -9,166 +9,79 @@
 
 标识说明：
 
-- 一类单段形变元件 <badge text="A1"/>：该类元件 `length` `height` `fullUVLength` 参数有效。
-- 二类单段形变元件 <badge text="A2" type="warning"/>：该类元件 `length` 和 `width` 参数有效。
-- 分段形变元件 <badge text="S" type="danger"/>：该类元件除 `fullUVLength` 以外所有参数均有效。
+- 一类单段形变元件 <badge text="A1"/>：该类元件 `length` `height` `fullUVLength` 参数有效。`length` 为到水平面的投影长度，`height` 为切变高度，`fullUVLength` 勾选则先切变再根据元件实际长度计算纹理，否则根据投影长度计算纹理再切变。
+- 二类单段形变元件 <badge text="A2" type="warning"/>：该类元件 `length` 和 `width` 参数有效。`length` 为长度，`width` 为宽度，木板需注意纹理走向。
+- 分段形变元件 <badge text="S" type="danger"/>：该类元件除 `fullUVLength` 以外所有参数均有效。各参数对元件形状和纹理的影响均需自行测试。~~别问我我根本搞不懂蘑菇数学~~
 
-## 双轨 <badge text="A1"/>
+## 路面
 
-`[A]DoubleRail`
+`[A]StoneFullSides` <badge text="A2" type="warning"/>
+`[A]StoneInner` <badge text="A2" type="warning"/>
+`[A]StoneLargeConcave` <badge text="A1"/>
+`[A]StoneLargeConcaveHalf` <badge text="A1"/>
+`[A]StoneOneSide` <badge text="A1"/>
+`[A]StoneOneSideConcave` <badge text="A1"/>
+`[A]StoneTwoSides` <badge text="A1"/>
+`[A]StoneTwoSidesConcave` <badge text="A1"/>
+`[S]StoneLargeConcave` <badge text="S" type="danger"/>
+`[S]StoneTwoSides` <badge text="S" type="danger"/>
+`[S]StoneTwoSidesConcave` <badge text="S" type="danger"/>
 
-## 不带定位杆的双轨 <badge text="A1"/>
+除了 `[A]StoneOneSideConcave` 以外，其它元件均在[路面](/glossary/stone-road.md)部分有所讲解。
 
-`[A]DoubleRailNoAlign`
+## 钢轨
 
-## 光块 <badge text="A2" type="warning"/>
+`[A]DoubleRail` <badge text="A1"/>
+`[A]DoubleRailNoAlign` <badge text="A1"/>
+`[A]SingleRail` <badge text="A1"/>
+`[A]SingleRailNoAlign` <badge text="A1"/>
+`[S]DoubleRail` <badge text="S" type="danger"/>
+`[S]DoubleRailNoAlign` <badge text="S" type="danger"/>
+`[S]SingleRail` <badge text="S" type="danger"/>
+`[S]SingleRailNoAlign` <badge text="S" type="danger"/>
 
-`[A]GlowBlock`
+钢轨两端的定位条可用于与路面衔接，在游戏中不可见。
 
-## 直护栏 <badge text="A1"/>
+另外，双轨与路面衔接时，建议[添加辅助轨](/start/joints-of-road-and-rail.md#双轨)。
 
-`[A]GuardRail`
+## 护栏
 
-## 转角护栏 <badge text="A2" type="warning"/>
+`[A]GuardRail` <badge text="A1"/>
+`[A]GuardRailL` <badge text="A2" type="warning"/>
+`[A]GuardRailLNoBase` <badge text="A2" type="warning"/>
+`[A]GuardRailNoBase` <badge text="A1"/>
 
-`[A]GuardRailL`
+由于这种护栏最先由玩家 Sterd 使用，常称为 ST 护栏。
 
-## 无底座转角护栏 <badge text="A2" type="warning"/>
+另有单独的底座元件 `04_StoneRoad → 9_Others → SO_SmallBlock`。
 
-`[A]GuardRailLNoBase`
+## 材质块
 
-## 无底座直护栏 <badge text="A1"/>
+`[A]GlowBlock` <badge text="A2" type="warning"/>
+`[A]IronBlock` <badge text="A2" type="warning"/>
+`[A]PaperBlock` <badge text="A2" type="warning"/>
+`[A]RubberBlock` <badge text="A2" type="warning"/>
+`[A]StoneBlock` <badge text="A2" type="warning"/>
+`[A]WoodBlock` <badge text="A2" type="warning"/>
 
-`[A]GuardRailNoBase`
+由于这种材质块有肉眼可见的纹理劣化，变球器底座仍然建议使用 `04_StoneRoad → 9_Others` 中的材质块。
 
-## 钢块 <badge text="A2" type="warning"/>
+## 木板
 
-`[A]IronBlock`
+`[A]WoodenBoard` <badge text="A2" type="warning"/>
+`[A]WoodenBoardTypeB` <badge text="A2" type="warning"/>
+`[S]WoodenBoard` <badge text="S" type="danger"/>
+`[S]WoodenBoardTypeB` <badge text="S" type="danger"/>
+`[S]WoodenBoardWidth2` <badge text="S" type="danger"/>
+`[S]WoodenBoardWidth2TypeB` <badge text="S" type="danger"/>
+`[S]WoodenBoardWidth4` <badge text="S" type="danger"/>
+`[S]WoodenBoardWidth4TypeB` <badge text="S" type="danger"/>
 
-## 纸块 <badge text="A2" type="warning"/>
+A 类木板纹理横向排布，B 类木板纹理纵向排布。
 
-`[A]PaperBlock`
+## 管道
 
-## 橡胶块 <badge text="A2" type="warning"/>
+`[A]TransTube` <badge text="A1"/>
+`[A]WoodTube` <badge text="A1"/>
 
-`[A]RubberBlock`
-
-## 单轨 <badge text="A1"/>
-
-`[A]SingleRail`
-
-## 不带定位杆的单轨 <badge text="A1"/>
-
-`[A]SingleRailNoAlign`
-
-## 石块 <badge text="A2" type="warning"/>
-
-`[A]StoneBlock`
-
-## 全边框路面 <badge text="A2" type="warning"/>
-
-`[A]StoneFullSides`
-
-## 路面中心 <badge text="A2" type="warning"/>
-
-`[A]StoneInner`
-
-## 宽凹路面 <badge text="A1"/>
-
-`[A]StoneLargeConcave`
-
-## 大块凹路面边缘 <badge text="A1"/>
-
-`[A]StoneLargeConcaveHalf`
-
-## 大块平路面边缘 <badge text="A1"/>
-
-`[A]StoneOneSide`
-
-## ~~这块 tm 啥啊孩子不会取名先这么放着~~ <badge text="A1"/>
-
-`[A]StoneOneSideConcave`
-
-## 平路面 <badge text="A1"/>
-
-`[A]StoneTwoSides`
-
-## 凹路面 <badge text="A1"/>
-
-`[A]StoneTwoSidesConcave`
-
-## 塑质直管道 <badge text="A1"/>
-
-`[A]TransTube`
-
-## 木块 <badge text="A2" type="warning"/>
-
-`[A]WoodBlock`
-
-## 木板 <badge text="A2" type="warning"/>
-
-`[A]WoodenBoard` `[A]WoodenBoardTypeB`
-
-::: tip
-
-单段形变元件中的两块木板没有区别，一块旋转 90° 即可得到另一块。
-
-但请注意，多段形变元件的两块木板纹理方向不同，使用时需要区分。
-
-:::
-
-## 木质直管道 <badge text="A1"/>
-
-`[A]WoodTube`
-
-## 双轨 <badge text="S" type="danger"/>
-
-`[S]DoubleRail`
-
-## 不带定位杆的双轨 <badge text="S" type="danger"/>
-
-`[S]DoubleRailNoAlign`
-
-## 单轨 <badge text="S" type="danger"/>
-
-`[S]SingleRail`
-
-## 不带定位杆的单轨 <badge text="S" type="danger"/>
-
-`[S]SingleRailNoAlign`
-
-## 宽凹路面 <badge text="S" type="danger"/>
-
-`[S]StoneLargeConcave`
-
-## 平路面 <badge text="S" type="danger"/>
-
-`[S]StoneTwoSides`
-
-## 凹路面 <badge text="S" type="danger"/>
-
-`[S]StoneTwoSidesConcave`
-
-## 横纹木板 <badge text="S" type="danger"/>
-
-`[S]WoodenBoard`
-
-## 纵纹木板 <badge text="S" type="danger"/>
-
-`[S]WoodenBoardTypeB`
-
-## 横纹两格宽木板 <badge text="S" type="danger"/>
-
-`[S]WoodenBoardWidth2`
-
-## 纵纹两格宽木板 <badge text="S" type="danger"/>
-
-`[S]WoodenBoardWidth2TypeB`
-
-## 横纹四格宽木板 <badge text="S" type="danger"/>
-
-`[S]WoodenBoardWidth4`
-
-## 纵纹四格宽木板 <badge text="S" type="danger"/>
-
-`[S]WoodenBoardWidth4TypeB`
+各类转接管道均位于[管道](/glossary/tube.md)部分。

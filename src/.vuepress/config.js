@@ -18,6 +18,7 @@ module.exports = {
 
   themeConfig: {
     repo: "Dilant/BMETutorial",
+    docsBranch: "master",
     docsDir: "src",
     contributors: false,
     selectLanguageText: "语言 / Languages",
