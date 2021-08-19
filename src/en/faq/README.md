@@ -50,7 +50,7 @@ Linking custom items failed.
 - Check if level info is properly filled. Particularly, map and author name are required.
 - Check if multiple level infos are added.
 
-## Test map process stops at 85%
+## Maptest process stops at 85%
 
 Initializing object parameters failed.
 
@@ -63,7 +63,7 @@ Initializing object parameters failed.
   - Adjustable object
   - Level info
 
-## Test map process stops at 95%
+## Maptest process stops at 95%
 
 Writing files failed. The map name shouldn't contain special characters.
 
@@ -94,13 +94,7 @@ See: [起步 → 基本操作 → 聚焦](/start/basics.md#聚焦)
 
 ## `Generic Failure` occurs when uploading maps to Steam Workshop
 
-Check your internet connection.
-
-::: tip
-
-Anyone outside Mainland China is not likely to encounter it. The solutions below are not for you, it's kept just for my website maintenance.
-
-:::
+Check your internet connection, and use proxy if necessary.
 
 ::: details Only for Mainland China users (简体中文)
 

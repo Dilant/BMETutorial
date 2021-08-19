@@ -18,7 +18,7 @@ Saved maps will appear in `Project` window and can be double-clicked to open.
 
 The saving path on disk is:
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\NewProject\Assets\`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex MapEditor\NewProject\Assets\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/NewProject/Assets/`
 
 `.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` three files for one map. **In general cases, don't manipulate them directly.** [Scene of accident](/en/faq/#assets-are-imported-but-not-showing-up)
@@ -144,7 +144,7 @@ Note that **savepoints must be activated in order, then destination**.
 
 See: [图鉴 → 菜单栏中的元件 → 存档点和终点](/glossary/assets-in-menu.md#存档点和终点)
 
-## Test Map
+## Maptest
 
 `File → Test Map`
 
@@ -182,12 +182,12 @@ Use `W` to go up and `S` down. (Can't change now)
 
 You can change `CameraDistance`, `CameraAltitude`, `CameraFOV`, `CameraYaw`, `CameraPitch` and `CameraRoll`. The screenshot is 1920×1080 in `.jpg` format and saved at:
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex\ScreenShots`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex\ScreenShots`
 - Mac: `~/Library/Application Support/com.MushREB.Ballex/ScreenShots`
 
 ### Auto Backup
 
 A `.bpk` backup will be generated before every maptest and can be used for rescue:
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\Maps\`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex MapEditor\Maps\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/Maps/`

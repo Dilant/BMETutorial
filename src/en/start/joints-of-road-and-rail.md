@@ -9,10 +9,6 @@
 - 不将带坡度的钢轨直接与路面衔接
 - 双轨添加辅助单轨
 
-## 单轨
-
-直接使用 `10_AdjustableRoad → [A]SingleRail` 对齐路面即可。
-
 ## 双轨
 
 - 使用 `10_AdjustableRoad → [A]DoubleRail` 对齐路面
@@ -23,11 +19,7 @@
 
 ## 双弯轨
 
-::: tip
-
 出于美观性和辅助轨制作难度考虑，并不建议双弯轨直接衔接路面，可以先使用较短的双轨衔接。
-
-:::
 
 - 使用 `10_AdjustableRoad → [A]DoubleRail` 对齐路面
 - 将两根弯轨分别与双轨的两轨对齐
@@ -39,5 +31,3 @@
 
 - `length = 0.9` `height = -0.2` `rotationY = 45°`
 - `length = 0.9` `height = -0.2` `rotationX = 30°`
-
-~~什么？你想做单弯轨？我会但我不教（恼~~

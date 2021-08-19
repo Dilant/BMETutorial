@@ -37,7 +37,7 @@ Drag to resize or move them. You can maximize, resume or close them, and closed 
 
 `Settings → Set Ballex Path`
 
-It should end in `Ballex.exe`, either stable or beta version. When you enter map test mode, it will launch automatically.
+It should end in `Ballex.exe`, either stable or beta version. When you enter maptest mode, it will launch automatically.
 
 ## Windows
 

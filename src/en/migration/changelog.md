@@ -33,7 +33,7 @@
 - Removed assets `Assets → ...`
   - Experimental assets (become stable ones) `10_[Experimental]Adjustable → *`
 - New features
-  - Set Ballex path (will launch automatically upon map test) `Settings → Set Ballex Path`
+  - Set Ballex path (will launch automatically upon maptest) `Settings → Set Ballex Path`
 - Known bugs
   - Manually exported `.bpk` files don't include adjustable assets <badge text="Not fixed" type="danger"/>
 
@@ -53,7 +53,7 @@
   - Scaleable assets `11_ScaleableRoad → *`
 - New features
   - Fix all texts `Edit → Fix Text`
-  - Show player ball's coordinate in map test
+  - Show player ball's coordinate in maptest
 - Known bugs
   - Can't select or multiselect transfer doors added directory (but ones unpacked from `.bpk` files can) <badge text="Not fixed" type="danger"/>
 
@@ -63,9 +63,9 @@
   - Transfer door `02_Machinery → M_TransferDoor`
 - New features
   - Texts `CustomText` are regarded as moving objects now
-  - In-game map test
+  - In-game maptest
 - Removed features
-  - Maptester (replaced by in-game map test)
+  - Maptester (replaced by in-game maptest)
 - Known bugs
   - The texture problems are relieved but not solved <badge text="3.3.1b2"/>
   - Can't re-export unpacked `.bpk` maps due to corrupted text <badge text="3.3.1b2"/>

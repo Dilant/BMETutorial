@@ -23,14 +23,14 @@ _以下内容暂时未经校对和修缮，所有内容摘自开发者撰写的�
 
 导出的地图文件会保存在：（你没看错大小写，`Mushreb`）
 
-- Win: `%USERNAME%\AppData\LocalLow\Mushreb\BLE\BLE4B1Files`
+- Win: `%USERPROFILE%\AppData\LocalLow\Mushreb\BLE\BLE4B1Files`
 - Mac: _待补充_
 
 ## 测试地图
 
 找到上一步导出的地图文件，复制并重命名：
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex\TestMap\TestMap.ble4b1`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex\TestMap\TestMap.ble4b1`
 - Mac: `~/Library/Application Support/com.MushREB.Ballex/TestMap/TestMap.ble4b1`
 
 然后打开 Ballex 即可，[测图模式用法](/start/basics.md#测试地图)与测试 BME 制作的地图相同。

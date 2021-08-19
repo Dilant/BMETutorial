@@ -18,7 +18,7 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 地图实际保存位置为：
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\NewProject\Assets\`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex MapEditor\NewProject\Assets\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/NewProject/Assets/`
 
 `.rtscene` `.rtscene.rtmeta` `.rtscene.rtview` 三个一组。**一般情况下，请勿手动处理该文件夹内容。**[事故现场](/faq/#已导入元件但根目录不显示)
@@ -182,12 +182,12 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 可调整距离 `CameraDistance`，高度 `CameraAltitude`，视场角 `CameraFOV`，偏航角 `CameraYaw`，俯仰角 `CameraPitch`，横滚角 `CameraRoll`六个参数。截图为 1920×1080 `.jpg` 文件，保存在：
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex\ScreenShots`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex\ScreenShots`
 - Mac: `~/Library/Application Support/com.MushREB.Ballex/ScreenShots`
 
 ### 自动备份
 
 每次测试地图，会导出一份 `.bpk` 格式的备份，可用于意外情况下的地图恢复：
 
-- Win: `%USERNAME%\AppData\LocalLow\MushREB\Ballex MapEditor\Maps\`
+- Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex MapEditor\Maps\`
 - Mac: `~/Library/Application Support/com.MushREB.BallexMapEditor/Maps/`

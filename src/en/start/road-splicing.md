@@ -69,7 +69,8 @@
 
 ## 圆弧路面与螺旋路面
 
-挑选 `7_Helix` `8_Circle` 中合适的元件使用即可。
+- 挑选 `04_StoneRoad → 7_Helix` `04_StoneRoad → 8_Circle` 中合适的元件使用即可
+- 反向螺旋可缩放 `scaleZ = -1` 得到
 
 为了制作更加复杂的弯曲路面，需要使用[分段形变元件](/glossary/adjustable-road.md)，相关使用技巧将在进阶板块介绍。
 

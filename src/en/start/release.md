@@ -1,46 +1,48 @@
-# 发布地图
+# Release Map
 
-## 导出 `.bms` 文件
+## Export `.bms` File
 
 `File → Export .bms File`
 
-得到 `.bms` 文件后，即可分发给其它玩家游玩。
+`.bms` files can be shared for others to play.
 
 ::: tip
 
-在 BME 3.5.1b1 或更高版本中，可以解包 `.bms` 文件。
+You can unpack `.bms` files in BME 3.5.1b1 or newer versions.
 
-如果希望上传到 Steam 创意工坊，请继续阅读。
+If you want to upload it to Steam Workshop, continue reading.
 
-此后全球玩家都能够游玩该地图，因此请务必多加[测试](/start/test-map.md)，注意地图质量！
+Every player can play this map from now on, so do comprehensive [tests](/start/test-map.md) and always pay attention to its quality!
 
 :::
 
-## 准备封面
+## Prepare a Cover
 
-封面应为 `.jpg` 格式，推荐分辨率为 1920×1080。
+The cover should be in `.jpg` format, and recommended resolution is 1920×1080.
 
-测图模式得到的[截图](/start/basics.md#截图)即满足上述要求；也可以自行制作封面，但请注意与地图主题相关。~~禁止投喂仓鼠~~
+[Screenshots](/en/start/basics.md#screenshot) from maptest mode meet this requirement. You can also draw it yourself, providing that it's relevant to the map topic. ~~No hamsters please~~
 
-## 准备地图名与简介
+## Prepare Map Name and Description
 
-地图名请与[地图信息](/glossary/assets-in-menu.md#地图信息)保持一致，可以附加翻译。
+Map name should be the same as [levelinfo](/glossary/assets-in-menu.md#地图信息). If possible, you can append its translation.
 
-简介建议至少交代小节数和预计难度，可以加入预计首通时间、地图特色和其它相关信息。如果可能，可以附上翻译，但请注意翻译质量。~~禁止滚来滚去~~
+It's recommended that the description tells number of sections and map difficulty. Estimated time for first-seen pass, characteristics of map and other relavant information can be added. If possible, you can provide its translation.
 
-## 上传到 Steam 创意工坊
+_English only is OK, and we are encouraging Chinese mappers to translate everything into English if possible._
+
+## Upload to Steam Workshop
 
 `File → Upload to Workshop`
 
-选择上述步骤得到的 `.bms` 地图和 `.jpg` 封面，填入地图名和简介，点击 `Upload` 即可发布。
+Choose the `.bms` map and the `.jpg` cover, fill in map name and description, and click `Upload`.
 
 ::: tip
 
-测图器内的简介输入框不支持 `Enter` 回车，可以在记事本里写好后直接粘贴。
+There's no use pressing `Enter` in the textboxes in BME, but you can write your words in notepad and paste them.
 
-上传前请检查网络条件，必要时开启加速器。另请参阅：
+Check your internet connection before uploading maps, and use proxy if necessary. See also:
 
-- [FAQ → 向创意工坊上传地图时报错 `Generic Failure`](/faq/#向创意工坊上传地图时报错-generic-failure)
-- [FAQ → 其他玩家找不到自己上传的地图](/faq/#其他玩家找不到自己上传的地图)
+- [FAQ → `Generic Failure` occurs when uploading maps to Steam Workshop](/en/faq/#generic-failure-occurs-when-uploading-maps-to-steam-workshop)
+- [FAQ → Others can't find my uploaded maps](/en/faq/#others-can-t-find-my-uploaded-maps)
 
 :::
