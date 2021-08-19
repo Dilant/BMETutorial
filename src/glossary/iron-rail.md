@@ -19,7 +19,7 @@
 
 ::: tip
 
-建议使用 `[A]DoubleRail` 和 `[A]SingleRail` 代替。
+建议使用 `[A]DoubleRail` `[A]SingleRail` 代替。
 
 :::
 
@@ -55,6 +55,6 @@
 
 直护栏命名格式为 `RG_a`。`a` 为长度。
 
-转角护栏命名格式为 `RGL_a_b`。`a` 和 `b` 为长宽，`aOb` 逆时针旋转。
+转角护栏命名格式为 `RGL_a_b`。`a` `b` 为长宽，`aOb` 逆时针旋转。
 
 另有用于拼接护栏的组件 `RGS_1` `RGS_2` `RGS_2`。

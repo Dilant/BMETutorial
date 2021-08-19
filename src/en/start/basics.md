@@ -79,7 +79,7 @@ Current view (`Persp` / `Ortho`) is shown under the coordinate axis, and can be 
 
 `Q`, press to enable, also #3 button of toolbar.
 
-You can't select or make any change to objects ~~to avoid misoperations.~~ We don't use it often.
+You can't select or make any change to objects ~~to avoid misoperations~~. We don't use it often.
 
 ### Move Mode
 
@@ -120,7 +120,7 @@ In `Hierarchy` window: Use `Ctrl` `Shift` in common sense.
 
 The seletion field is judged in orthogonal view, and an object is selected if **any part of it** is in the field.
 
-In order not to select any unneeded object, we recommend using [orthogonal](/en/start/basics.html#toggle-perspective-orthogonal-view) and [overlook](/en/start/basics.html#three-views) view to multi-select.
+In order not to select any unneeded object, using [orthogonal](#toggle-perspective-orthogonal-view) and [overlook](#three-views) view to multi-select is recommended.
 
 :::
 

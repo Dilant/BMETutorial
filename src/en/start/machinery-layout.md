@@ -13,6 +13,6 @@
 
 ::: tip
 
-对于部分机关，@z2414 提供了一个[标准化元件包](/assets/Standard-Machinery-EXTRA-by-z2414.bpk)。（你应该知道[怎么用](/start/alignment.md#借位对齐)吧？）
+对于部分机关，z2414 提供了一个[标准化元件包](/assets/Standard-Machinery-EXTRA-by-z2414.bpk)。（应该知道[怎么用](/start/alignment.md#借位对齐)吧？）
 
 :::

@@ -8,7 +8,7 @@ sidebar: auto
 
 _以下内容暂时未经校对和修缮，所有内容摘自开发者撰写的使用说明。由于正在快速迭代，以下内容**随时可能更改**。_
 
-**本章节基于 Ballex Level Editor 0.2b4 编写。**
+**本板块基于 Ballex Level Editor 0.2b4 编写。**
 
 :::
 

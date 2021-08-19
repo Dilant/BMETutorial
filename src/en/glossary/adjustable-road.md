@@ -10,7 +10,7 @@
 标识说明：
 
 - 一类单段形变元件 <badge text="A1"/>：该类元件 `length` `height` `fullUVLength` 参数有效。`length` 为到水平面的投影长度，`height` 为切变高度，`fullUVLength` 勾选则先切变再根据元件实际长度计算纹理，否则根据投影长度计算纹理再切变。
-- 二类单段形变元件 <badge text="A2" type="warning"/>：该类元件 `length` 和 `width` 参数有效。`length` 为长度，`width` 为宽度，木板需注意纹理走向。
+- 二类单段形变元件 <badge text="A2" type="warning"/>：该类元件 `length` `width` 参数有效。`length` 为长度，`width` 为宽度，木板需注意纹理走向。
 - 分段形变元件 <badge text="S" type="danger"/>：该类元件除 `fullUVLength` 以外所有参数均有效。各参数对元件形状和纹理的影响均需自行测试。~~别问我我根本搞不懂蘑菇数学~~
 
 ## 路面

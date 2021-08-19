@@ -85,7 +85,7 @@
 
 :::
 
-命名格式为 `SCT_a_b`。`a` 和 `b` 为长宽，两者不区分。
+命名格式为 `SCT_a_b`。`a` `b` 为长宽，两者不区分。
 
 这类路面四周没有花纹。
 
@@ -99,7 +99,7 @@
 
 :::
 
-命名格式为 `SFS_axb`。`a` 和 `b` 为长宽，两者不区分。
+命名格式为 `SFS_axb`。`a` `b` 为长宽，两者不区分。
 
 这类路面四周均有花纹。
 
@@ -143,7 +143,7 @@
 
 建议使用 `[A]StoneLargeConcave` 代替。
 
-宽凹路面没有端子，如有需要，可以使用 `1_Construct → 2_LargeConcaveSide → SCS_0_1` 和 `6_CrossRoad → SCR_ConcaveSideRoadOuter` 拼接。
+宽凹路面没有端子，如有需要，可以使用 `1_Construct → 2_LargeConcaveSide → SCS_0_1` `6_CrossRoad → SCR_ConcaveSideRoadOuter` 拼接。
 
 :::
 
@@ -167,7 +167,7 @@
 
 |      | 平路面               | 凹路面                     | 宽凹路面                        |
 | ---- | -------------------- | -------------------------- | ------------------------------- |
-| 直角 | `SCR_TwoRoads` \*    | `SCR_TwoRoadsConcave` \*   | `SCR_TwoRoadsConcaveTwoSides`   |
+| L 形 | `SCR_TwoRoads` \*    | `SCR_TwoRoadsConcave` \*   | `SCR_TwoRoadsConcaveTwoSides`   |
 | 135° | `SCR_45StoneFloor`   | `SCR_45StoneConcave`       |                                 |
 | T 形 | `SCR_ThreeRoads` \*  | `SCR_ThreeRoadsConcave` \* | `SCR_ThreeRoadsConcaveTwoSides` |
 | Y 形 | `SCR_3x45StoneFloor` | `SCR_3x45StoneConcave`     |                                 |

@@ -58,10 +58,6 @@ module.exports = {
             link: "/glossary/",
           },
           {
-            text: "BLE",
-            link: "/ble/",
-          },
-          {
             text: "FAQ",
             link: "/faq/",
           },
@@ -294,10 +290,6 @@ module.exports = {
           {
             text: "Glossary",
             link: "/en/glossary/",
-          },
-          {
-            text: "BLE",
-            link: "/en/ble/",
           },
           {
             text: "FAQ",

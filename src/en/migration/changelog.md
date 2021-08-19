@@ -20,9 +20,9 @@
 
 - New assets `Assets → ...`
   - Block-rain field `5_Functional → BlockRainField`
-  - Assets of BLE (not ready for standalone use)
+  - Assets of Ballex Level Editor (not ready for standalone use)
 - New features
-  - Import maps made by BLE `File → Unpack BLE`
+  - Import maps made by Ballex Level Editor `File → Unpack BLE`
   - Unpack `.bms` maps `File → Unpack BMS`
 
 ## 3.3.1b2 → 3.4b3
@@ -69,7 +69,7 @@
 - Known bugs
   - The texture problems are relieved but not solved <badge text="3.3.1b2"/>
   - Can't re-export unpacked `.bpk` maps due to corrupted text <badge text="3.3.1b2"/>
-  - Wrong model of `CornerCreator5_2` and `CornerCreator5_3` <badge text="3.3.1b2"/>
+  - Wrong model of `CornerCreator5_2` `CornerCreator5_3` <badge text="3.3.1b2"/>
   - Wrong model of `CornerCreator5_5` <badge text="3.5.3b2"/>
   - Haze background is missing when taking screenshots <badge text="3.3.1b2"/>
   - Can't select or multiselect transfer doors <badge text="3.3.1b2" type="warning"/>

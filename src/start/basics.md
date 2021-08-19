@@ -120,7 +120,7 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 在 `Scene` 窗口中多选时，将按照正交视角判定，碰撞箱**任意部位**进入选框即视为选中。
 
-为了尽量避免选中不需要的元件，建议使用[正交](/start/basics.md#切换透视-正交视角)、[俯视](/start/basics.md#三视图)视角操作。
+为了尽量避免选中不需要的元件，建议使用[正交](#切换透视-正交视角)、[俯视](#三视图)视角操作。
 
 :::
 
@@ -148,7 +148,7 @@ First things first. 为了避免各种各样的奇葩情况，请养成首先添
 
 `File → Test Map`
 
-如果你正确[设置了 Ballex 路径](/start/preparation.md#设置-ballex-路径)，Ballex 将自动启动并进入测图模式。
+如果正确[设置了 Ballex 路径](/start/preparation.md#设置-ballex-路径)，Ballex 将自动启动并进入测图模式。
 
 ::: tip
 
