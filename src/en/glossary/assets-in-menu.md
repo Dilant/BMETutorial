@@ -1,124 +1,122 @@
-# 菜单栏中的元件
+# Assets in Menu
 
 `Create ...`
 
-## 地图信息
+## Levelinfo
 
 `LevelInfo`
 
 ### `MapName`
 
-地图名。可以输入中文或各种 Unicode 字符，不过由于字库缺失，会显示方框。
+You can use unicode charactors, though non-ASCII characters will display as blank suqares. They'll behave well in game.
 
 ### `AuthorName`
 
-作者。同上。
+Same as above.
 
 ### `Time`
 
-场景。白天 `Daytime`，夜晚 `Night`，地外 `OverEarth`，宇宙 `Universe`，朝霞 `MorningGlow`，晚霞 `SunsetGlow`，深渊 `Abyss`。
+`Daytime`, `Night`, `OverEarth`, `Universe`, `MorningGlow`, `SunsetGlow`, `Abyss`.
 
 ### `Weather`
 
-天气。晴 `Sunny`，多云 `Cloudy`，雨 `Rainy`，雪 `Snowy`，雷暴 `ThunderStorm`，雾 `Haze`。
+`Sunny`, `Cloudy`, `Rainy`, `Snowy`, `ThunderStorm`, `Haze`.
 
-| 场景天气组合 | 原版使用关 | 特殊性质                                       |
-| ------------ | ---------- | ---------------------------------------------- |
-| 白天·晴      | 3, 6       | _高光瞎眼慎用_                                 |
-| 白天·阴      |            |                                                |
-| 白天·雪      | 1, 9       |                                                |
-| 白天·雨      | 4          | 纸球缓慢减少耐久                               |
-| 白天·雷暴    | 13         | 有闪电光照；纸球快速减少耐久                   |
-| 白天·雾      | 18         | 可视距离短                                     |
-| 夜晚·晴      | 2, 10      |                                                |
-| 夜晚·阴      | 11         | 无环境光                                       |
-| 夜晚·雪      | 5, 8       |                                                |
-| 夜晚·雨      | 7, 12, 14  | 纸球缓慢减少耐久                               |
-| 夜晚·雷暴    | 17         | 无环境光，**仅**有闪电光照；纸球快速减少耐久   |
-| 夜晚·雾      |            | 环境光极弱，可视距离很短，光源效果大幅削弱     |
-| 朝霞         | 15         |                                                |
-| 晚霞         |            |                                                |
-| 地外         | 16         | 低重力（5/18 倍）                              |
-| 宇宙         |            | 零重力                                         |
-| 深渊         |            | 玩家球迅速升温，木球纸球因此点燃，冰球迅速融化 |
+| Combination         | Used in Level # | Special Properties                                                                              |
+| ------------------- | --------------- | ----------------------------------------------------------------------------------------------- |
+| Day, sunny          | 3, 6            | _Luminance warning_                                                                             |
+| Day, cloudy         |                 |                                                                                                 |
+| Day, rainy          | 4               | Paper ball loses durability slowly                                                              |
+| Day, snowy          | 1, 9            |                                                                                                 |
+| Day, thunderstorm   | 13              | Have lightnings；paper ball loses durability rapidly                                            |
+| Day, haze           | 18              | Short visual range                                                                              |
+| Night, sunny        | 2, 10           |                                                                                                 |
+| Night, cloudy       | 11              | No ambient light                                                                                |
+| Night, rainy        | 7, 12, 14       | Paper ball loses durability slowly                                                              |
+| Night, snowy        | 5, 8            |                                                                                                 |
+| Night, thunderstorm | 17              | No ambient light **except** lightnings; paper ball loses durability rapidly                     |
+| Night, haze         |                 | Ultra dim ambient light, ultra short visual range                                               |
+| Morning glow        | 15              |                                                                                                 |
+| Sunset glow         |                 |                                                                                                 |
+| Over earth          | 16              | Low gravity (5/18 time)                                                                         |
+| Universe            |                 | No gravity                                                                                      |
+| Abyss               |                 | Player ball is heated up rapidly, causing paperball and woodenball to burn and ice ball to melt |
 
-::: details 以下是有效但不推荐使用的场景天气组合
+::: details Valid but unrecommended combinations below
 
-| 场景天气组合 | 设置方法                          |
-| ------------ | --------------------------------- |
-| 朝霞·雨      | `MorningGlow` `Rainy`             |
-| 朝霞·雷暴    | `MorningGlow` `ThunderStorm`      |
-| 晚霞·雨      | `SunsetGlow` `Rainy`              |
-| 晚霞·雷暴    | `SunsetGlow` `ThunderStorm`       |
-| 深渊·雨      | `Abyss` `Rainy`                   |
-| 深渊·雷暴    | `Abyss` `ThunderStorm`            |
-| 白天·雾·雨   | `*` `Rainy` + 雾天气转换器        |
-| 白天·雾·雷暴 | `*` `ThunderStorm` + 雾天气转换器 |
+| Combination                | Method to Set                |
+| -------------------------- | ---------------------------- |
+| Morning glow, rainy        | `MorningGlow` `Rainy`        |
+| Morning glow, thunderstorm | `MorningGlow` `ThunderStorm` |
+| Sunset glow, rainy         | `SunsetGlow` `Rainy`         |
+| Sunset glow, thunderstorm  | `SunsetGlow` `ThunderStorm`  |
+| Abyss, rainy               | `Abyss` `Rainy`              |
+| Abyss, thunderstorm        | `Abyss` `ThunderStorm`       |
 
 :::
 
 ### `InitialBallType`
 
-出生球种。木球 `WoodenBall`，石球 `StoneBall`，纸球 `PaperBall`，冰球 `IceBall`，钢球 `IronBall`，橡胶球 `RubberBall`，光球 `GlowBall`。
+`WoodenBall`, `StoneBall`, `PaperBall`, `IceBall`, `IronBall`, `RubberBall`, `GlowBall`.
 
-## 文字
+## Text
 
 `CustomText`
 
-用于在地图中加入提示或标志。
+Used to add hints or marks to the map.
 
-文字带有内容 `textContent`，字号 `textSize`，颜色 `textColor` 三个参数，点击 `generate` 按钮后就会生成。此外，文字可加入 `MovingRoad` 组，作为移动元件使用。
+A text has 3 parameters: `textContent`, `textSize` and `textColor`. Click `generate` to generate. Besides, texts can be regarded as `MovingRoad` and used as moving objects.
 
-性质：
+Properties:
 
-- 运动学元件，跟随路点设定运动。
-- 没有碰撞箱。
-- 内容支持中文或各种 Unicode 字符，不过由于字库缺失，会显示方框。
-- 字号上限为 `50`。
-- 颜色支持透明度设定。
-- 文字晚于场景渲染，因此在雾天气能穿透雾层显示。
-- ~~虽然看着闪闪发亮但是~~在夜间**没有**照明效果。
-- 如果没有绑定路点，将视为固定元件。
-- 不支持设定坐标。如需精确设定坐标，请[借位对齐](/start/alignment.md#借位对齐)或绑定一个路点。
-- 其它参见[移动元件](/glossary/moving-road.md)。
+- Kinematics object following the setting of waypoints.
+- No collision.
+- Supports unicode unicode charactors, though non-ASCII characters will display as blank suqares.
+- Max text size is 50.
+- Color supports transparency setting.
+- Texts are rendered after the scene, so it may penetrate the haze.
+- ~~Though it seems gleaming,~~ it **can't** light up anything.
+- Will be regarded as a fixed object if no waypoint is binded.
+- Its coordinate can't be explicitly set. If you want to set one, please do [cheat alignment](/en/start/alignment.md#cheat-alignment) or bind a waypoint.
+- Refer to: [Moving Object](/en/glossary/moving-road.md).
 
-## 文件夹
+## Folder
 
 `Folder`
 
 ::: danger
 
-打包时不保留层级信息；文件夹的位姿参数仅作用于制图器中的显示，不作用于导出的地图。除非清楚自己在做什么，请勿使用。
+No hierarchy information is saved when packing maps; position and posture of folders are only effective in preview, but not in exported maps. Don't use it unless you know what you're doing.
 
 :::
 
-性质：
+Properties:
 
-- 慢速双击可以修改文件夹名。
-- 可以嵌套。
-- 文件夹内元件的坐标为相对文件夹自然参考系的坐标。
-- 打包 `.bpk` 格式地图时，不会保留层级信息。
-- 导出 `.bpk` 或 `.bms` 地图时，所有元件将**以自身位姿参数值**导出。为了避免错位等问题，**请确保文件夹自身位姿参数为初始值**。
+- Can change its name by slowly clicking twice.
+- Can be cascaded.
+- The coordinate of objects in the folder is relative to natural refenence axis of the folder.
+- No hierarchy information is saved when packing `.bpk` format maps.
+- When exporting `.bpk` or `.bms` maps, all objects will be exported **with its own position and posture**. **Please ensure that every folder uses its initial position and posture parameters** to avoid malposition.
 
-## 存档点和终点
+## Savepoint and Destination
 
 `SavePoint*` `Destination`
 
-存档点常根据形状称为盘点。~~压根不像啊喂~~
+Savepoint is also called checkpoint.
 
 ::: warning
 
-存档点和终点不支持缩放；绕 `X` 轴或 `Z` 轴旋转存档点和终点会发生错位，请在游戏中自行检查。
+Savepoints and destination don't support scaling. Plus, rotating them along `X` or `Z` axis will cause malposition, so please check them in game.
 
 :::
 
-性质：
+Properties:
 
-- 固定元件。
-- 玩家球死亡时，将重置所有机关，从最后点亮的存档点重生。
-- X 号存档点是第 X+1 节的开头。_请勿遗漏 1 号存档点！_
-- 存档点必须从 1 号开始按顺序点亮，点亮所有存档点后才能点亮终点。
-- 如果存档点编号不是从 1 开始的连续序列，地图能正常导出，但不可过关。
-- 当存在多个编号相同的存档点时，只有第一个添加的存档点有效，其它的会消失。
-- 为了确保关卡正常加载，当起点与终点判定区域相交时，游戏会直接结束。如有设计需求，请将终点放在起点旁边（例如后方）。
-  参见：[口语挑战 10《置之死地而后生》通关视频](https://www.bilibili.com/video/BV1Xz4y1m7GC)
+- Fixed object.
+- You'll reborn at the last savepoint with all machinery reset if you die.
+- Savepoint #X is the beginning of section #(X+1). _Don't forget savepoint #1!_
+- Savepoints must be activated sequentially from #1, and destination can be activated only after all savepoints have been activated.
+- If savepoint numbers is not a continuous sequence starting from 1, you can export but never pass the map.
+- If there're multiple savepoints with same number, the first added one is valid and others will disappear.
+- In order to ensure the that the map is loaded correctly, intersecting startpoint and destination will cause game over. Please place the destination beside (for example behind) the startpoint if needed.
+  See also: [Walkthrough of _口语 Challenge #10: 置之死地而后生_](https://www.bilibili.com/video/BV1Xz4y1m7GC)

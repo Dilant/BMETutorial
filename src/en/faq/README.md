@@ -17,7 +17,7 @@ Loading maps fail.
 - One or more maps are corrupted
 - Maps with the same internal ID conflict with each other
 
-Don't use any other tools to modify the project directory unless you know what you're doing. Especially, don't use another map to replace files of an existing map. You should always use `.bms` format and internal pack / unpack functions to process maps. Due to the complexity of both troubleshooting and solving problems, it is recommended to immediately seek help in [QQ group (700371890)](https://jq.qq.com/?_wv=1027&k=LhtfLbqL) or [discord server (Ballex)](https://discord.gg/CwC7u2wFmJ).
+Don't use any other tools to modify the project directory unless you know what you're doing. Especially, don't use another map to replace files of an existing map. You should always use `.bms` format and internal pack / unpack functions to process maps. Due to the complexity of both troubleshooting and solving problems, it's recommended to immediately seek help in [QQ group (700371890)](https://jq.qq.com/?_wv=1027&k=LhtfLbqL) or [discord server (Ballex)](https://discord.gg/CwC7u2wFmJ).
 
 ## No response after conforming to import / export <badge text="Windows" type="warning"/>
 
