@@ -21,6 +21,12 @@
 - 设置 `length` 参数控制长度，点击 `generate` 即可生成钢轨
 - 如果两端仍然拼接钢轨，可以改用 `10_AdjustableRoad → [A]DoubleRailNoAlign`，下同
 
+::: tip
+
+出于易用性考虑，不再推荐使用 `03_IronRail → 1_Straight` 中的元件。
+
+:::
+
 ## 斜坡双轨
 
 - 只建议设计 15°，30° 或 45° 的斜坡
@@ -32,6 +38,16 @@
 
 - 挑选 `03_IronRail → 2_Circle` `03_IronRail → 3_Helix` 中圆心角相同，切变高度 `H` 相同，半径 `R` 数值相差 100 的两段钢轨，分别作为内外轨
 - 反向螺旋可缩放 `scaleZ = -1` 得到
+
+## 护栏
+
+直接使用 `10_AdjustableRoad → [A]GuardRail` `10_AdjustableRoad → [A]GuardRailL` 即可。
+
+::: tip
+
+出于易用性考虑，不再推荐使用 `03_IronRail → 5_GuardRail` 中的元件。
+
+:::
 
 ## 缺面处理
 

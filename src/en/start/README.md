@@ -56,8 +56,8 @@ If you've been exposed to Unity, or if you're highly perceptive, here are the ke
 
 - No `Assets`? [Import them](/en/start/preparation.md#import-assets) first.
 - Look up in the [glossary](/en/glossary/). For example, there's what you want in `04_StoneRoad → 1_Construct → 1_Cap`.
-- You can [set the coordinates](/start/alignment.md#坐标对齐) in `Inspector` window or hold `V` to [align the vertices](/start/alignment.md#顶点对齐).
-- Master the [shortcuts](/start/shortcuts.md).
-- Spare some time to [test map](/start/test-map.md), test map, and test map.
+- You can [set the coordinates](/en/start/alignment.md#坐标对齐) in `Inspector` window or hold `V` to [align the vertices](/en/start/alignment.md#顶点对齐).
+- Master the [shortcuts](/en/start/shortcuts.md).
+- Spare some time to [test map](/en/start/test-map.md), test map, and test map.
 
 ~~Great! Now you've got it!~~

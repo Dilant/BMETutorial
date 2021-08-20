@@ -1,38 +1,38 @@
-# 管道
+# Tube
 
 `09_Tube`
 
-包含木、塑料、冰材质的管道部件。
+Contains wooden, plastic and ice tube components.
 
-性质：
+Properties:
 
-- 固定元件。
-- 木质管道不透明，塑质管道半透明，冰质管道略微透明（能见度非常差）。
-- 冰质管道不阻挡激光。
-- 纸球可能卡在管道里，请谨慎设计相关路线。
+- Fixed object.
+- Wooden tubes are not transparent, plastic ones are transparent, and ice ones are slightly transparent (with poor visibility).
+- Ice tubes don't block laser.
+- Paperball can be stuck in the tube, so be cautious to use such design.
 
 ::: tip
 
-标注 \* 的项目位于[可形变元件](/glossary/adjustable-road.md)部分。
+Assets marked with \* are in [Adjustable Assets](/en/glossary/adjustable-road.md) chapter.
 
-冰质直管道 `T_IceScaleableTube` 可以直接沿 `Y` 轴缩放使用，冰质管道部件均不自带管道环 `T_IceTubeRing`，可以自行添加。
+Ice straight tube `T_IceScaleableTube` can be scaled along `Y` axis to use. Ice tube components don't come along with rings `T_IceTubeRing`, and you can add them manually.
 
-目前并没有三向异面转接管道，此处条目空缺便于日后添加。
+There's no 3-way skew adapter now. The entry is retained for future edition.
 
 :::
 
-按用途简单分类：
+Categorized based on usage:
 
-|              | 冰质                 | 塑质                 | 木质                |
-| ------------ | -------------------- | -------------------- | ------------------- |
-| 直管道       | `T_IceScaleableTube` | `[A]TransTube` \*    | `[A]WoodTube` \*    |
-| 单向（端子） | `T_IceTube0x`        | `T_TransTube0x`      | `T_WoodTube0x`      |
-| 双向（圆弧） | `T_IceTubeCorner`    | `T_TransTubeCorner`  | `T_WoodTubeCorner`  |
-| 双向（L 形） | `T_IceTube2x`        | `T_TransTube2x`      | `T_WoodTube2x`      |
-| 三向（T 形） | `T_IceTube3x`        | `T_TransTube3x`      | `T_WoodTube3x`      |
-| 三向（异面） |                      |                      |                     |
-| 四向（十字） | `T_IceTube4xTypeA`   | `T_TransTube4xTypeA` | `T_WoodTube4xTypeA` |
-| 四向（鞍形） | `T_IceTube4xTypeB`   | `T_TransTube4xTypeB` | `T_WoodTube4xTypeB` |
-| 五向         | `T_IceTube5x`        | `T_TransTube5x`      | `T_WoodTube5x`      |
-| 六向         | `T_IceTube6x`        | `T_TransTube6x`      | `T_WoodTube6x`      |
-| 管道环       | `T_IceTubeRing`      | 自带                 | 自带                |
+|                  | Icy                  | Plastic              | Wooden              |
+| ---------------- | -------------------- | -------------------- | ------------------- |
+| Straight         | `T_IceScaleableTube` | `[A]TransTube` \*    | `[A]WoodTube` \*    |
+| 1-way (terminal) | `T_IceTube0x`        | `T_TransTube0x`      | `T_WoodTube0x`      |
+| 2-way (arc)      | `T_IceTubeCorner`    | `T_TransTubeCorner`  | `T_WoodTubeCorner`  |
+| 2-way (L)        | `T_IceTube2x`        | `T_TransTube2x`      | `T_WoodTube2x`      |
+| 3-way (T)        | `T_IceTube3x`        | `T_TransTube3x`      | `T_WoodTube3x`      |
+| 3-way (skew)     |                      |                      |                     |
+| 4-way (cross)    | `T_IceTube4xTypeA`   | `T_TransTube4xTypeA` | `T_WoodTube4xTypeA` |
+| 4-way (saddle)   | `T_IceTube4xTypeB`   | `T_TransTube4xTypeB` | `T_WoodTube4xTypeB` |
+| 5-way            | `T_IceTube5x`        | `T_TransTube5x`      | `T_WoodTube5x`      |
+| 6-way            | `T_IceTube6x`        | `T_TransTube6x`      | `T_WoodTube6x`      |
+| Ring             | `T_IceTubeRing`      | built-in             | built-in            |

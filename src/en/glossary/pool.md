@@ -1,18 +1,18 @@
-# 水池
+# Pool
 
 `07_Pool`
 
-命名格式为 `WP_axb`。`a` `b` 为长宽，两者不区分。
+Named as `WP_axb`. `a` `b` refer to length and width, they don't distinguish with each other.
 
-性质：
+Properties:
 
-- 固定元件。
-- 纸球、冰球、橡胶球、木球在水池中受浮力，浮力大小取决于当前场景的重力加速度。_也就是说，宇宙场景没有浮力。_
-- 浮力方向竖直向上，**与水池姿态无关**。请勿倒置水池作为诱捕陷阱。
-- 纸球遇水会快速损失耐久，大部分转为可恢复耐久（浅蓝条），小部分流失。
-- 可用于灭火；深渊场景中还可用于降温。
-- 水浪会影响浮力作用，但**一般情况请勿加以利用**。
-  参见：[《大航海》通关视频](https://www.bilibili.com/video/BV1G5411Y7vQ) 6:10
-- 水池底部有一层没有浮力的区域，但**请勿加以利用**。
-  参见：[《水中做自己》通关视频](https://www.bilibili.com/video/BV1KA411i7e9) 3:00
-- 当球同时位于两个水池的判定区时，**后者将失去浮力**。因此请勿相邻排布水池。
+- Fixed object.
+- Paperball, iceball, rubberball and woodenball float on water. The buoyancy is related to gravity acceleration of the scene. _That is to say, there's no buoyancy in universe scene._
+- The direction of buoyancy is always straight up, **which is irrelevant to the posture of the pool**. Don't place a pool upside down as a trap.
+- Paperball loses durability rapidly when it meets water. Most turns into recoverable durability (the lighter bar), and the remaining part drains.
+- Can be used to put out fire; also can be used to cool the ball in abyss scene.
+- The wave affects buoyancy, but **don't make use of it**.
+  See also: [Walkthrough of _The Voyage Test_](https://www.bilibili.com/video/BV1G5411Y7vQ) 6:10
+- There's a layer at the bottom of pool without buoyancy, but **don't make use of it**.
+  See also: [Walkthrough of _水中做自己_](https://www.bilibili.com/video/BV1KA411i7e9) 3:00
+- When the ball is in two pools at the same time, **the latter loses buoyancy**. So don't place pools adjacently.

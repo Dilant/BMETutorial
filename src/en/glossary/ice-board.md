@@ -1,7 +1,7 @@
-# 冰木板
+# Ice Board
 
 `06_Iceboard`
 
-与普通木板相比摩擦系数更小，其它均一致。
+Same with wooden board despite of less friction.
 
-其它参见：[木板](/glossary/wood-board.md)
+Refer to: [Wooden Board](/en/glossary/wood-board.md).

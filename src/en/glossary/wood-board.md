@@ -1,29 +1,29 @@
-# 木板
+# Wooden Board
 
 `05_WoodBoard`
 
-## 平木板
+## Flat Board
 
 `1_Board`
 
 ::: tip
 
-建议使用 `10_AdjustableRoad → [A]WoodenBoard` 代替。
+Substitute `10_AdjustableRoad → [A]WoodenBoard` is recommended.
 
-平木板厚度为其它木板的一半，通常需要缩放 `scaleY = 2`。
+The thickness of flat boards is half of other boards, so we usually set `scaleY = 2`.
 
 :::
 
-命名格式为 `WB_aXb`。`a` 为宽，`b` 为长。木板表面的深色纹路按 `a` 的方向延展。
+Named as `WB_aXb`. `a` refers to width, `b` refers to length. The dark grain on its surface stretches along `a` direction.
 
-## 弯曲木板
+## Bend Board
 
 `2_Bend`
 
-命名格式为 `WB_aXb`。`a` 为宽，`b` 为长。木板为圆弧面，以 `a` 的方向为轴，圆心角为 45°。
+Named as `WBD_aXb`. `a` refers to width, `b` refers to length. The board is an arc surface with direction `a` as its axle and central angle 45°.
 
-## 环形木板
+## Circular Board
 
 `3_Circle`
 
-命名格式为 `WC_Ww_Rr_Hh`。`w` 为宽度，`r` 为中轴线半径，`h` 为切变高度，`25` 和 `5` 分别表示 0.25 格和 0.5 格。木板投影到平面的圆心角为 90°。
+Named as `WC_Ww_Rr_Hh`. `w` refers to width, `r` refers to the radius of central line, `h` refers to shear height where `25` and `5` mean 0.25 and 0.5 time of grid length respectively. The central angle of board projected onto horizontal plane is 90°.

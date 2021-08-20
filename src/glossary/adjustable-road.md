@@ -27,7 +27,7 @@
 `[S]StoneTwoSides` <badge text="S" type="danger"/>
 `[S]StoneTwoSidesConcave` <badge text="S" type="danger"/>
 
-除了 `[A]StoneOneSideConcave` 以外，其它元件均在[路面](/glossary/stone-road.md)部分有所讲解。
+除了 `[A]StoneOneSideConcave` 以外，其它元件均在[路面](/glossary/stone-road.md)章节有所讲解。
 
 ## 钢轨
 
@@ -84,4 +84,4 @@ A 类木板纹理横向排布，B 类木板纹理纵向排布。
 `[A]TransTube` <badge text="A1"/>
 `[A]WoodTube` <badge text="A1"/>
 
-各类转接管道均位于[管道](/glossary/tube.md)部分。
+各类转接管道均位于[管道](/glossary/tube.md)章节。
