@@ -1,64 +1,63 @@
-# 元件间对齐
+# Alignment
 
 ::: danger
 
-**本章节内容对制图质量和效率具有决定性影响，请务必认真阅读，多加练习。**
+**This section includes critical strategies that contributes to a productive workflow for quality map making. It is recommended to try the techniques out as you read.**
 
-请勿跳过本章节！
-请勿跳过本章节！
-请勿跳过本章节！
+DO NOT SKIP THIS SECTION!
+DO NOT SKIP THIS SECTION!
 
 :::
 
 ## Coordinate Alignment
 
-在 `Inspector` 窗口中直接调整一个元件的参数。简单粗暴，新手友好。~~991CNX 救我~~
+Go over to the `Inspector` tab and type in the parameter of an object. Simple and straightforward. ~~Where's my calculator?~~
 
-常用于装饰、机关等不规则元件的对齐。
+Often applied on irregular shaped objects such as decoration or machinery.
 
 ## Vertex Alignment
 
-`V`，按住开启，松开关闭。
+Hold down `V` to enable, release to disable.
 
-**在移动模式下**，按住 `V` 键，坐标轴将吸附在光标附近的一个顶点上，此时再按住 `鼠标左键` 拖动该顶点，将会吸附在另一元件的某个顶点上。松开 `鼠标左键`，再松开 `V` 键，就完成了一次顶点对齐。
+**Under moving mode**，press and hold `V`, mouse pointer will attach to the nearest vertex. Then press and hold `Left Mouse Button` and perform a drag, the aforementioned vertex will attach to another vertex belongs to another object. Release `Left Mouse Button`, then release `V` to apply changes.
 
-常用于路块、木板、木箱等棱角方正的元件对齐，以及钢轨间衔接。
+Often applied when aligning block shaped objects such as road, wood boards and wood box, and concatenating iron rails.
 
-![顶点对齐示意图](/images/vertex-alignment-example.gif)
+![a gif showing how to perform a vertex alignment](/images/vertex-alignment-example.gif)
 
 ::: tip
 
-- 可以选中多个元件同时顶点对齐，它们的相对位置保持不变。
-- 这里的顶点均指建模意义中的顶点，包括几何意义中的顶点和纹理交界处的控制点。多加尝试很容易掌握两者的实际表现。绝大多数情况下，顶点对齐只需要使用前者。
+- Multiple object can be selected to perform alignment simultaneously. Their relative position will remain unchanged.
+- The selectable vertices includes all the ones on the mesh of the object, which may include excessive ones at where the textures meet. In most cases, only the ones at the outside of the object are used.
 
 :::
 
 ## Vertex Alignment + Quantization
 
-先使用顶点对齐，再使用[量化移动](/start/basics.md#量化)调整位置。
+Perform a vertex alignment first, then fine tune the position using [quantization](/start/basics.md#量化).
 
-常用于 ~~方块图~~ 需要错开 / 隔开一格距离时确定元件位置。
+Often applied ~~on pixelated/chessboard map~~ when determining location a unit apart from a certain object.
 
 ## Vertex Alignment + Coordinate Alignment
 
-先使用顶点对齐确定一个或两个轴的坐标，再使用坐标对齐确定其余轴的坐标。
+Perform a vertex alignment to nail down the coordinate of an axis or two, then perform a coordinate alignment to tune the rest.
 
-常用于路面与钢轨衔接，以及一些需要精调的场合。
+Often applied on the connection of road and iron rails, and for fine tuning purposes.
 
 ## Cheat Alignment
 
-任意添加一个元件作为辅助元件（一般是单格路块），将其它元件与它顶点对齐，再删除辅助元件。
+Add an arbitrary object to the scene as a pivot(usually a single block of road), then align other object with it by vertex. Delete that auxiliary object when finished.
 
-常用于批量移动元件（例如移动整小节）时与已有元件的对齐。
+Often applied when moving objects in a batch(for instance, a whole section) to a specific location, which related to some existing objects.
 
 ## Duplicate + Quantization
 
-当附近有一个相同元件时，可以直接[原位复制](/start/basics.md#复制元件)后[量化移动](/start/basics.md#量化)到需要的位置，通常可以大幅减小工作量。（尤其是姿态相同的机关！）
+When an identical object is nearby, [duplicate that in place](/start/basics.md#复制元件), then [perform a quantized move](/start/basics.md#量化) to pinpoint the destination, will likely save you a lot of hassle.(Especially those having the same posture!)
 
-特别地，当需要大量相同元件整齐排列时（例如 ~~大恒方尖碑~~ 棋格阵），此法有奇效。
+Specially, when a lot of identical objects are required to be placed orderly(e.g. ~~大恒方尖碑~~ chessboard), this method will come in real handy.
 
 ::: tip
 
-可以利用此方法创建借位对齐所需的辅助元件！多试试结合各种操作，特定情形下会得到更实用的对齐方式。
+This method can also be useful to create the auxiliary objected for cheat alignment! Try to mix and match those methods, and connect the dots as you progress.
 
 :::
