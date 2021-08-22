@@ -5,7 +5,7 @@
 | Operation                               | Shortcut                         |
 | --------------------------------------- | -------------------------------- |
 | [Translation](/start/basics.md#平移视图) | `Left mouse button`              |
-| [Rotation](/start/basics.md#旋转视图)    | `Alt/Option + Left mouse button` |
+| [Rotation](/start/basics.md#旋转视图)    | `Alt + Left mouse button` |
 | [Zoom In/Out](/start/basics.md#缩放视图) | `Mouse wheel`                    |
 | [Focus](/start/basics.md#聚焦)          | `F`                              |
 
