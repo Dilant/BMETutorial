@@ -2,7 +2,7 @@
 
 对于初学者，最具可操作性的一般准则是：
 
-- 使用[可形变元件](/glossary/adjustable-road.md)制作直路面
+- 使用[可形变元件](/glossary/adjustable-object.md)制作直路面
 - 使用[单格路块拼接件](/glossary/stone-road.md#单格路块拼接件)制作直角转角和平凹路面衔接
 - 保持路面衔接自然，不出现断层、缺口和穿模
 - 保持路面边缘纹理完整简洁
@@ -72,7 +72,7 @@
 - 挑选 `04_StoneRoad → 7_Helix` `04_StoneRoad → 8_Circle` 中合适的元件使用即可
 - 反向螺旋可缩放 `scaleZ = -1` 得到
 
-为了制作更加复杂的弯曲路面，需要使用[分段形变元件](/glossary/adjustable-road.md)，相关使用技巧将在进阶板块介绍。
+为了制作更加复杂的弯曲路面，需要使用[分段形变元件](/glossary/adjustable-object.md)，相关使用技巧将在进阶版块介绍。
 
 ## 缺面处理
 

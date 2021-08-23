@@ -195,7 +195,7 @@
 
 `WayPoint`
 
-控制[移动元件](/glossary/moving-road.md)的运动轨迹。
+控制[移动元件](/glossary/moving-object.md)的运动轨迹。
 
 路点带有编号 `index` 和停留时间 `stayTime` 两个参数，停留时间单位为秒。
 
@@ -203,4 +203,4 @@
 
 - 固定元件。
 - 当存在多个编号相同的路点时，只有第一个添加的路点有效。
-- 其它参见[移动元件](/glossary/moving-road.md)。
+- 其它参见[移动元件](/glossary/moving-object.md)。

@@ -44,9 +44,9 @@ Linking custom items failed.
 - Minimize and then resume the map editor window
 - Check IME if you're using non-english languages
 
-## Weather or initial ball type doesn't match the settings when testing map
+## Weather or initial ball type doesn't match the settings during maptest
 
-- Weather is not supported by morning glow, sunset glow, overearth, universe or abyss scene.
+- Weather is not supported by morning glow, sunset glow, over earth, universe or abyss scene.
 - Check if level info is properly filled. Particularly, map and author name are required.
 - Check if multiple level infos are added.
 
@@ -56,7 +56,7 @@ Initializing object parameters failed.
 
 - Try to fix texts with `Edit → Fix Text`.
 - Check objects with extra parameters. Delete and re-add it if you find anything wrong. They may include:
-  - Jumpbox
+  - Jump Box
   - Text
   - Moving object along with its waypoints
   - Trigger
@@ -85,12 +85,12 @@ See: [Start → Preparation → Start the Map Editor](/en/start/preparation.md#s
 
 Arbitrary select an object in view and press `F` to focus on it.
 
-See: [起步 → 基本操作 → 聚焦](/start/basics.md#聚焦)
+See: [起步 → 基本操作 → 聚焦](/start/basic-operation.md#聚焦)
 
-## Can't do vertex alignments
+## Can't perform vertex alignments
 
-- Some vertices are missing in certain assets (e.g. suspension bridge). Make use of another vertex, or do a coordinate alignment instead.
-- Certain assets have dense vertices that cause drifting (e.g. fan). Do a coordinate alignment instead.
+- Some vertices are missing in certain assets (e.g. suspension bridge). Make use of another vertex, or perform a coordinate alignment instead.
+- Certain assets have dense vertices that cause drifting (e.g. fan). Perform a coordinate alignment instead.
 
 ## `Generic Failure` occurs when uploading maps to Steam Workshop
 

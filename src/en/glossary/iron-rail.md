@@ -9,7 +9,7 @@
 
 ::: tip
 
-由于[可形变元件](/glossary/adjustable-road.md)相比部分元件更加易用，这些元件会给出完全等效的替代品。
+由于[可形变元件](/glossary/adjustable-object.md)相比部分元件更加易用，这些元件会给出完全等效的替代品。
 
 :::
 
@@ -49,7 +49,7 @@
 
 ::: tip
 
-建议使用 [ST 护栏](/glossary/adjustable-road.md)代替。
+建议使用 [ST 护栏](/glossary/adjustable-object.md)代替。
 
 :::
 

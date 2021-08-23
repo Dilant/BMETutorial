@@ -1,52 +1,52 @@
-# Shortcuts cheatsheet
+# Shortcuts
 
 ## Perspectives
 
-| Operation                               | Shortcut                         |
-| --------------------------------------- | -------------------------------- |
-| [Translation](/start/basics.md#平移视图) | `Left mouse button`              |
-| [Rotation](/start/basics.md#旋转视图)    | `Alt` + `Left mouse button` |
-| [Zoom In/Out](/start/basics.md#缩放视图) | `Mouse wheel`                    |
-| [Focus](/start/basics.md#聚焦)          | `F`                              |
+| Operation                                        | Shortcut          |
+| ------------------------------------------------ | ----------------- |
+| [Translation](/en/start/basic-operation.md#translation) | `MouseRight`      |
+| [Rotation](/en/start/basic-operation.md#rotation)       | `Alt + MouseLeft` |
+| [Zoom](/en/start/basic-operation.md#zoom)               | `MouseScroll`     |
+| [Focus](/en/start/basic-operation.md#focus)             | `F`               |
 
 ## Toolbar
 
-| Operation                                 | Shortcut   |
-| ----------------------------------------- | ---------- |
-| [Undo](/start/basics.md#撤销与还原)         | `Ctrl` + `Z` |
-| [Redo](/start/basics.md#撤销与还原)         | `Ctrl` + `Y` |
-| [Spectator Mode](/start/basics.md#观察模式) | `Q`        |
-| [Moving Mode](/start/basics.md#移动模式)    | `W`        |
-| [Rotation Mode](/start/basics.md#旋转模式)  | `E`        |
-| [Scaling Mode](/start/basics.md#缩放模式)   | `R`        |
-| Global/local coordinate                    | `X`        |
-| Combined/separated origin                  | `Z`        |
+| Operation                                   | Shortcut   |
+| ------------------------------------------- | ---------- |
+| [Undo](/en/start/basic-operation.md#undo-and-redo) | `Ctrl + Z` |
+| [Redo](/en/start/basic-operation.md#undo-and-redo) | `Ctrl + Y` |
+| [Spectator Mode](/en/start/basic-operation.md#spectator-mode) | `Q`        |
+| [Moving Mode](/en/start/basic-operation.md#moving-mode)    | `W`        |
+| [Rotation Mode](/en/start/basic-operation.md#rotation-mode)  | `E`        |
+| [Scaling Mode](/en/start/basic-operation.md#scaling-mode)   | `R`        |
+| [Global / Local Coordinate]()               | `X`        |
+| [Combined / Separated Origin]()             | `Z`        |
 
 ::: tip
 
-[Global/local coordinate]() and [combined/separated origin]() will be talked about in [Advanced]() section.
+[Global / Local Coordinate]() and [Combined / Separated Origin]() will be talked about in [Advanced](/en/advanced/) section.
 
 :::
 
 ## Operations on objects
 
-| Operation                                        | Shortcut   |
-| ------------------------------------------------ | ---------- |
-| [Duplicate in place](/start/basics.md#复制元件)   | `Ctrl` + `D` |
-| [Delete](/start/basics.md#删除元件)               | `Delete`   |
-| [Quantization](/start/basics.md#量化)            | `Ctrl`     |
-| [Align by vertex](/start/alignment.md#顶点对齐)   | `V`        |
+| Operation                                       | Shortcut     |
+| ----------------------------------------------- | ------------ |
+| [Duplicate](/en/start/basic-operation.md#duplicate-objects) | `Ctrl` + `D` |
+| [Delete](/en/start/basic-operation.md#delete-objects)             | `Delete`     |
+| [Quantization](/en/start/basic-operation.md#quantization)           | `Ctrl`       |
+| [Align by Vertex](/en/start/alignment.md) | `V`          |
 
-## Maptesting mode
+## Maptest mode
 
-| Operation                                        | Shortcut   |
-| ------------------------------------------------ | ---------- |
-| [Jump to next section](/start/basics.md#跳节)     | `Ctrl` + `P` |
-| [Flying](/start/basics.md#飞行)                   | `Ctrl` + `G` |
-| [Screenshot](/start/basics.md#截图)               | `Ctrl` + `C` |
+| Operation                                     | Shortcut     |
+| --------------------------------------------- | ------------ |
+| [Jump to Next Section](/en/start/basic-operation.md#jump-to-next-section) | `Ctrl` + `P` |
+| [Flying](/en/start/basic-operation.md#flying)               | `Ctrl` + `G` |
+| [Screenshot](/en/start/basic-operation.md#screenshot)           | `Ctrl` + `C` |
 
 ## Miscellaneous
 
-| Operation                    | Shortcut   |
-| ---------------------------- | ---------- |
-| [Save](/start/basics.md#保存) | `Ctrl + S` |
+| Operation                     | Shortcut   |
+| ----------------------------- | ---------- |
+| [Save](/en/start/basic-operation.md#save) | `Ctrl + S` |

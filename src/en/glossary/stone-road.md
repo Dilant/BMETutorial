@@ -9,7 +9,7 @@
 
 ::: tip
 
-由于[可形变元件](/glossary/adjustable-road.md)和[单格路块拼接件](#单格路块拼接件)相比大多数零散的元件更加易用，这些元件会给出完全等效的替代品。
+由于[可形变元件](/glossary/adjustable-object.md)和[单格路块拼接件](#单格路块拼接件)相比大多数零散的元件更加易用，这些元件会给出完全等效的替代品。
 
 :::
 
@@ -25,7 +25,7 @@
 
 ::: tip
 
-[可形变路面](/glossary/adjustable-road.md)均不缺面，请优先使用可形变路面。
+[可形变路面](/glossary/adjustable-object.md)均不缺面，请优先使用可形变路面。
 
 :::
 

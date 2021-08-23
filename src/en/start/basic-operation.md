@@ -1,4 +1,4 @@
-# Basic Operations
+# Basic Operation
 
 ## Create Level Info
 
@@ -6,7 +6,7 @@
 
 First things first. Remember to always do this instantly after creating a new map so as to avoid weird things. [Scene of accident](/en/faq/#weather-or-initial-ball-type-doesn-t-match-the-settings-when-testing-map)
 
-See how to fill it in [here](/glossary/assets-in-menu.md#地图信息).
+See how to fill it in [here](/en/glossary/assets-in-menu.md#level-info).
 
 ## Save
 
@@ -41,15 +41,15 @@ But don't rely on them, and always make a backup before making breaking changes.
 
 ## Adjust View
 
-### Move the View
+### Translation
 
 Use `MouseRight` and drag.
 
-### Rotate the View
+### Rotation
 
 Use `Alt + MouseLeft` and drag.
 
-### Scale the View
+### Zoom
 
 Use `MouseScroll`.
 
@@ -75,25 +75,25 @@ Current view (`Persp` / `Ortho`) is shown under the coordinate axis, and can be 
 
 ## Adjusting Objects
 
-### View Mode
+### Spectator Mode
 
 `Q`, press to enable, also #3 button of toolbar.
 
 You can't select or make any change to objects ~~to avoid misoperations~~. We don't use it often.
 
-### Move Mode
+### Moving Mode
 
 `W`, press to enable, also #4 button of toolbar.
 
 Drag the arrows to move an object in corresponding directions, or drag the plane symbols to move it in corresponding planes.
 
-### Rotate Mode
+### Rotation Mode
 
 `E`, press to enable, also #5 button of toolbar.
 
 Drag the colored arcs to rotate the object in corresponding planes, or drag the white arc to rotate it in the projection plane, or drag the surface to ~~let it go~~ rotate it freely.
 
-### Scale Mode
+### Scaling Mode
 
 `R`, press to enable, also #6 button of toolbar.
 
@@ -118,7 +118,7 @@ In `Hierarchy` window: Use `Ctrl` `Shift` in common sense.
 
 ::: tip
 
-The seletion field is judged in orthogonal view, and an object is selected if **any part of it** is in the field.
+The selection field is judged in orthogonal view, and an object is selected if **any part of it** is in the field.
 
 In order not to select any unneeded object, using [orthogonal](#toggle-perspective-orthogonal-view) and [overlook](#three-views) view to multi-select is recommended.
 
@@ -136,13 +136,13 @@ Sorry but there's no `Ctrl + X` `Ctrl + C` `Ctrl + V`.
 
 `Delete`
 
-## Create Savepoints and Destination
+## Create Save Points and Destination
 
 `Create → SavePoints`
 
-Note that **savepoints must be activated in order, then destination**.
+Note that **save points must be activated in order, then destination**.
 
-See: [图鉴 → 菜单栏中的元件 → 存档点和终点](/glossary/assets-in-menu.md#存档点和终点)
+See: [Glossary → Assets in Menu → Save Point and Destination](/en/glossary/assets-in-menu.md#save-point-and-destination)
 
 ## Maptest
 
@@ -164,7 +164,7 @@ Destination can't be activated in maptest mode.
 
 ~~Be aware of the coordinate axis, for example the gravity applies opposite to Y axis~~
 
-### Skip to Next Savepoint
+### Jump to Next Section
 
 `Ctrl + P`
 

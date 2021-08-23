@@ -47,4 +47,4 @@
 
 `3_WoodBoard`
 
-参见[木板](/glossary/wood-board.md)。
+参见[木板](/glossary/wooden-board.md)。

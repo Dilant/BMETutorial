@@ -9,5 +9,5 @@ If you still prefer editing these maps in new BME, follow these instructions.
 :::
 
 - Export every map in old BME, so you get `.bms` files
-- For every `.bms` file, unpack, [re-add level info](/en/start/basics.md#create-level-info) and save
+- For every `.bms` file, unpack, [re-add level info](/en/start/basic-operation.md#create-level-info) and save
 - These maps still exist in old BME after migration. You can right-click to remove them if you no longer need them.

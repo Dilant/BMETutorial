@@ -2,13 +2,13 @@
 
 `Create ...`
 
-## Levelinfo
+## Level Info
 
 `LevelInfo`
 
 ### `MapName`
 
-You can use unicode charactors, though non-ASCII characters will display as blank suqares. They'll behave well in game.
+You can use unicode characters, though non-ASCII characters will display as blank squares. They'll behave well in game.
 
 ### `AuthorName`
 
@@ -71,14 +71,14 @@ Properties:
 
 - Kinematics object following the setting of waypoints.
 - No collision.
-- Supports unicode unicode charactors, though non-ASCII characters will display as blank suqares.
+- Supports unicode characters, though non-ASCII characters will display as blank squares.
 - Max text size is 50.
 - Color supports transparency setting.
 - Texts are rendered after the scene, so it may penetrate the haze.
 - ~~Though it seems gleaming,~~ it **can't** light up anything.
-- Will be regarded as a fixed object if no waypoint is binded.
-- Its coordinate can't be explicitly set. If you want to set one, please do [cheat alignment](/en/start/alignment.md#cheat-alignment) or bind a waypoint.
-- Refer to: [Moving Object](/en/glossary/moving-road.md).
+- Will be regarded as a fixed object if no waypoint is bound.
+- Its coordinate can't be explicitly set. If you want to set one, please perform a [cheat alignment](/en/start/alignment.md#cheat-alignment) or bind a waypoint.
+- Refer to: [Moving Object](/en/glossary/moving-object.md).
 
 ## Folder
 
@@ -94,29 +94,29 @@ Properties:
 
 - Can change its name by slowly clicking twice.
 - Can be cascaded.
-- The coordinate of objects in the folder is relative to natural refenence axis of the folder.
+- The coordinate of objects in the folder is relative to natural reference axis of the folder.
 - No hierarchy information is saved when packing `.bpk` format maps.
 - When exporting `.bpk` or `.bms` maps, all objects will be exported **with its own position and posture**. **Please ensure that every folder uses its initial position and posture parameters** to avoid malposition.
 
-## Savepoint and Destination
+## Save Point and Destination
 
 `SavePoint*` `Destination`
 
-Savepoint is also called checkpoint.
+Save point is also called checkpoint.
 
 ::: warning
 
-Savepoints and destination don't support scaling. Plus, rotating them along `X` or `Z` axis will cause malposition, so please check them in game.
+Save points and destination don't support scaling. Plus, rotating them along `X` or `Z` axis will cause malposition, so please check them in game.
 
 :::
 
 Properties:
 
 - Fixed object.
-- You'll reborn at the last savepoint with all machinery reset if you die.
-- Savepoint #X is the beginning of section #(X+1). _Don't forget savepoint #1!_
-- Savepoints must be activated sequentially from #1, and destination can be activated only after all savepoints have been activated.
-- If savepoint numbers is not a continuous sequence starting from 1, you can export but never pass the map.
-- If there're multiple savepoints with same number, the first added one is valid and others will disappear.
-- In order to ensure the that the map is loaded correctly, intersecting startpoint and destination will cause game over. Please place the destination beside (for example behind) the startpoint if needed.
+- You'll reborn at the last save point with all machinery reset if you die.
+- Save point #X is the beginning of section #(X+1). _Don't forget save point #1!_
+- Save points must be activated sequentially from #1, and destination can be activated only after all save points have been activated.
+- If save point numbers is not a continuous sequence starting from 1, you can export but never pass the map.
+- If there're multiple save points with same number, the first added one is valid and others will disappear.
+- In order to ensure the that the map is loaded correctly, intersecting start point and destination will cause game over. Please place the destination beside (for example behind) the start point if needed.
   See also: [Walkthrough of _口语 Challenge #10: 置之死地而后生_](https://www.bilibili.com/video/BV1Xz4y1m7GC)

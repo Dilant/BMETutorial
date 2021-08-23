@@ -8,7 +8,7 @@ sidebar: auto
 
 _以下内容暂时未经校对和修缮，所有内容摘自开发者撰写的使用说明。由于正在快速迭代，以下内容**随时可能更改**。_
 
-**本板块基于 Ballex Level Editor 0.2b4 编写。**
+**本版块基于 Ballex Level Editor 0.2b4 编写。**
 
 :::
 
@@ -33,7 +33,7 @@ _以下内容暂时未经校对和修缮，所有内容摘自开发者撰写的�
 - Win: `%USERPROFILE%\AppData\LocalLow\MushREB\Ballex\TestMap\TestMap.ble4b1`
 - Mac: `~/Library/Application Support/com.MushREB.Ballex/TestMap/TestMap.ble4b1`
 
-然后打开 Ballex 即可，[测图模式用法](/start/basics.md#测试地图)与测试 BME 制作的地图相同。
+然后打开 Ballex 即可，[测图模式用法](/start/basic-operation.md#测试地图)与测试 BME 制作的地图相同。
 
 ## 在 BME 中导入 `.ble4b1` 地图
 

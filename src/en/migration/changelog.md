@@ -50,12 +50,12 @@
   - Large-size jump board `02_Machinery → M_JumpBoardUltra`
   - 5×4 full-side road block `04_StoneRoad → 2_FullSides → SFS_5x4`
   - A duplicate `04_StoneRoad → 9_Others → SO_2`
-  - Scaleable assets `11_ScaleableRoad → *`
+  - Scalable assets `11_ScaleableRoad → *`
 - New features
   - Fix all texts `Edit → Fix Text`
   - Show player ball's coordinate in maptest
 - Known bugs
-  - Can't select or multiselect transfer doors added directory (but ones unpacked from `.bpk` files can) <badge text="Not fixed" type="danger"/>
+  - Can't select or multi-select transfer doors added directory (but ones unpacked from `.bpk` files can) <badge text="Not fixed" type="danger"/>
 
 ## 3.2b11 → 3.3.0b5
 
@@ -72,14 +72,14 @@
   - Wrong model of `CornerCreator5_2` `CornerCreator5_3` <badge text="3.3.1b2"/>
   - Wrong model of `CornerCreator5_5` <badge text="3.5.3b2"/>
   - Haze background is missing when taking screenshots <badge text="3.3.1b2"/>
-  - Can't select or multiselect transfer doors <badge text="3.3.1b2" type="warning"/>
+  - Can't select or multi-select transfer doors <badge text="3.3.1b2" type="warning"/>
 
 ## 3.2b9 → 3.2b11
 
 - New assets `Assets → ...`
   - Corner creators (typo bug →) `04_StoneRoad → 10_CornerCrearor → *`
   - Ice tube `09_Tube → *`
-  - Scaleable assets `11_ScaleableRoad → *`
+  - Scalable assets `11_ScaleableRoad → *`
     - Adjustable road blocks
     - Adjustable texture blocks (including ice blocks)
 - New weather `LevelInfo → Time → ...`
@@ -106,4 +106,4 @@
   - Abyss `Abyss`
 - Known bugs
   - Maptester works improperly with new assets <badge text="3.3.0b5"/>
-  - Can't multiselect T boards, pianos, pushers, laser-locked doors or laser pushes <badge text="Not fixed" type="danger"/>
+  - Can't multi-select T boards, pianos, pushers, laser-locked doors or laser pushes <badge text="Not fixed" type="danger"/>

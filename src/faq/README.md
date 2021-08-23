@@ -85,7 +85,7 @@ sidebar: auto
 
 在视野内任选一个元件，按 `F` 聚焦。
 
-参见：[起步 → 基本操作 → 聚焦](/start/basics.md#聚焦)
+参见：[起步 → 基本操作 → 聚焦](/start/basic-operation.md#聚焦)
 
 ## 无法顶点对齐
 

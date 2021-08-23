@@ -47,4 +47,4 @@ Refer to: [Road](/en/glossary/stone-road.md).
 
 `3_WoodBoard`
 
-Refer to: [Wood Board](/en/glossary/wood-board.md).
+Refer to: [Wood Board](/en/glossary/wooden-board.md).
