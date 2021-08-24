@@ -1,33 +1,33 @@
-# 路面与钢轨衔接
+# Connecting road and rails
 
 ![](/images/joints-example.jpg)
 
-对于初学者，最具可操作性的一般准则是：
+The recommendation for beginners are:
 
-- 钢轨轴线与路面对齐
-- 钢轨上沿与路面齐平
-- 不将带坡度的钢轨直接与路面衔接
-- 双轨添加辅助单轨
+- Line up the central line of the rail with the one of the road
+- Align the upper bound of rail to the upper surface of road
+- No direct connection between a rail slope and a horizontal road
+- Add an auxiliary mono rail for dual rails
 
-## 双轨
+## Dual rails
 
-- 使用 `10_AdjustableRoad → [A]DoubleRail` 对齐路面
-- 添加 `10_AdjustableRoad → [A]SingleRail` 对齐路面
-- 设置辅助单轨参数为 `length = 0.8` `height = -0.2`
+- Add a `10_AdjustableRoad → [A]DoubleRail` to the scene, line it up with the road
+- Add a `10_AdjustableRoad → [A]SingleRail` to the scene as the auxiliary mono, also line it up with the road
+- Set its parameter as `length = 0.8` `height = -0.2`
 
-此时辅助单轨倾角约为 15°，上述参数可以根据个人喜好和实际情况微调。
+After those settings, the auxiliary mono should have a slope of 15°. You may also tweak aforementioned parameters as you like.
 
-## 双弯轨
+## Dual rail turns
 
-出于美观性和辅助轨制作难度考虑，并不建议双弯轨直接衔接路面，可以先使用较短的双轨衔接。
+Out of aesthetics and simplicity, attaching dual rail turns directly to road is not recommended. Consider attaching short straight dual rails first.
 
-- 使用 `10_AdjustableRoad → [A]DoubleRail` 对齐路面
-- 将两根弯轨分别与双轨的两轨对齐
-- 删除双轨
-- 添加 `10_AdjustableRoad → [S]SingleRailNoAlign` 对齐路面（[顶点对齐 + 坐标对齐](/start/alignment.md#顶点对齐-坐标对齐)）
-- 根据实际情况自行调节辅助单轨的参数
+- Align `10_AdjustableRoad → [A]DoubleRail` to the road
+- Align two curved rails to each rail of the dual rail accordingly
+- Remove the straight dual rail
+- Add `10_AdjustableRoad → [S]SingleRailNoAlign` to the scene to line up with the road ([Vertex Alignment + Coordinate Alignment](/start/alignment.md#顶点对齐-坐标对齐))
+- Tweak the parameters for the auxiliary mono according to actual situation
 
-仅供参考，页首图中的两根辅助轨参数分别为：
+For reference, the parameters for the two auxiliary mono in the header are as the following accordingly:
 
 - `length = 0.9` `height = -0.2` `rotationY = 45°`
 - `length = 0.9` `height = -0.2` `rotationX = 30°`
