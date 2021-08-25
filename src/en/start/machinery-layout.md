@@ -1,18 +1,18 @@
-# 机关定位
+# Machinery Locating
 
-对于初学者，最具可操作性的一般准则是：
+The recommendation for beginners are:
 
-- 尽己所能对齐
-- 避免卡位或穿模
-- 不要绕 `X` `Z` 轴旋转任何定轴刚体
-- 不要缩放任何定轴刚体
+- Try your best to align
+- Avoid blocking or clipping
+- Do not rotate any fixed-axis rigid body around `X` or `Z` axis
+- Do not scale any fixed-axis rigid body.
 
-由于机关不规则的形状和并不实用的定位点，大多数机关只能坐标对齐一两个轴，其余轴需要目测对齐（二分法试坐标）。[正交](/start/basic-operation.md#切换透视-正交视角)、[侧视](/start/basic-operation.md#三视图)视角会有助于操作。
+Due to the irregular shape of and usually useless vertices on the machinery, most of them can only precisely pinpoint an axis or two, while a bit of eyeballing are required for the rest. (performing bisection on that specific coordinate). [Orthogonal view](/start/basic-operation.md#切换透视-正交视角) or [end view](/start/basic-operation.md#三视图) may come in handy.
 
-无论如何，最最最重要的是：**确保机关正常运作！**
+No matter what, the most important thing to bear in mind is **making sure machinery is working correctly**!
 
 ::: tip
 
-对于部分机关，z2414 提供了一个[标准化元件包](/assets/Standard-Machinery-EXTRA-by-z2414.bpk)。（应该知道[怎么用](/start/alignment.md#借位对齐)吧？）
+z2414 offered a [standardized machinery pack](/assets/Standard-Machinery-EXTRA-by-z2414.bpk) for some common machinery patterns. ([How to use?](/start/alignment.md#借位对齐))
 
 :::
