@@ -2,20 +2,15 @@
 
 ## Start the Map Editor
 
-Double click `Ballex MapEditor.exe` or `Ballex MapEditor.app`. Ensure that:
-
-- Steam is launched and logged in
-- The file `steam_appid.txt` with content `1114430` is in the executable directory
+Launch it via Steam and choose the 4th option `Play MapEditor Alpha (Not Stable)`.
 
 ::: tip
 
-Ballex can run in parallel with map editor. In fact, you can use the same method to launch `Ballex.exe` or `Ballex.app`.
+Ballex and BME can be launched from local directory. Ensure that:
 
-:::
-
-::: warning
-
-You should manually restart Steam if tools (for example Steam++) have automatically started it.
+- Steam is launched and logged in
+- The file `steam_appid.txt` with content `1114430` is in the executable directory
+- Manually restart Steam if it's started automatically by other tools (for example Steam++ or SteamCommunity302).
 
 :::
 
@@ -25,19 +20,19 @@ You should manually restart Steam if tools (for example Steam++) have automatica
 
 `Settings → Frame Rate`
 
-### Change DPI Scale Rate
+### Change Scale Rate
 
 `Settings → Scale Rate`
-
-### Change Layout
-
-Drag to resize or move them. You can maximize, resume or close them, and closed windows can be called out in `Window` menu.
 
 ## Set Ballex Path
 
 `Settings → Set Ballex Path`
 
 It should end in `Ballex.exe`, either stable or beta version. When you enter maptest mode, it will launch automatically.
+
+### Change Layout
+
+Drag to resize or move them. You can maximize, resume or close them, and closed windows can be called out in `Window` menu.
 
 ## Windows
 
@@ -85,7 +80,7 @@ Unimported assets are shown here. For most cases, just `Import` them all and see
 
 ::: warning
 
-Obsolete assets won't be removed automatically. You can right click and remove them manually.
+Obsolete assets won't be removed automatically. You can right-click and remove them manually.
 
 See: [More → Versioning → Migration Guide](/en/migration/guide.md).
 

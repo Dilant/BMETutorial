@@ -4,7 +4,7 @@
 
 `Create → Create Level Info`
 
-First things first. Remember to always do this instantly after creating a new map so as to avoid weird things. [Scene of accident](/en/faq/#weather-or-initial-ball-type-doesn-t-match-the-settings-when-testing-map)
+First things first. Remember to always do this instantly after creating a new map so as to avoid weird things. [Scene of accident](/en/faq/#weather-or-initial-ball-type-doesn-t-match-the-settings-during-maptest)
 
 See how to fill it in [here](/en/glossary/assets-in-menu.md#level-info).
 
@@ -25,7 +25,7 @@ The saving path on disk is:
 
 :::
 
-## Add objects
+## Add Objects
 
 Find the needed asset in `Project` window and drag it into `Scene` window. You'll see it in `Hierarchy` window at the end of the list, and you can change its position, posture or other parameters in `Inspector` window.
 
@@ -43,7 +43,7 @@ But don't rely on them, and always make a backup before making breaking changes.
 
 ### Translation
 
-Use `MouseRight` and drag.
+Use `MouseWheel` or `MouseRight` and drag.
 
 ### Rotation
 

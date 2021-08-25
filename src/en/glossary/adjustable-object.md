@@ -42,7 +42,7 @@
 
 钢轨两端的定位条可用于与路面衔接，在游戏中不可见。
 
-另外，双轨与路面衔接时，建议[添加辅助轨](/start/joints-of-road-and-rail.md#双轨)。
+另外，双轨与路面衔接时，建议[添加辅助轨](/start/connecting-road-and-rail.md#双轨)。
 
 ## 护栏
 

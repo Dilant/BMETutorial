@@ -13,7 +13,7 @@ Properties:
 
 ::: tip
 
-Assets marked with \* are in [Adjustable Assets](/en/glossary/adjustable-object.md) chapter.
+Elements marked with \* are in [Adjustable Object](/en/glossary/adjustable-object.md) chapter.
 
 Ice straight tube `T_IceScaleableTube` can be scaled along `Y` axis to use. Ice tube components don't come along with rings `T_IceTubeRing`, and you can add them manually.
 

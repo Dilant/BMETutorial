@@ -24,7 +24,7 @@ The cover should be in `.jpg` format, and recommended resolution is 1920×1080.
 
 ## Prepare Map Name and Description
 
-Map name should be the same as [levelinfo](/en/glossary/assets-in-menu.md#level-info). If possible, you can append its translation.
+Map name should be the same as [level info](/en/glossary/assets-in-menu.md#level-info). If possible, you can append its translation.
 
 It's recommended that the description tells number of sections and map difficulty. Estimated time for first-seen pass, characteristics of map and other relevant information can be added. If possible, you can provide its translation.
 

@@ -35,7 +35,7 @@
 - New features
   - Set Ballex path (will launch automatically upon maptest) `Settings → Set Ballex Path`
 - Known bugs
-  - Manually exported `.bpk` files don't include adjustable assets <badge text="Not fixed" type="danger"/>
+  - Manually exported `.bpk` files don't include adjustable objects <badge text="Not fixed" type="danger"/>
 
 ## 3.3.0b5 → 3.3.1b2
 
