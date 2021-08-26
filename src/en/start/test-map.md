@@ -1,37 +1,40 @@
-# 测试地图
+# Map testing
 
-地图完工，一定是件很有成就感的事吧。但先不要太兴奋——为了保证地图质量和玩家体验，在发布之前，请务必严谨地测试地图！
+Hooray! You've just finished your map. It must be a great sense of accomplishment.
+But before cheering up and call it a day, please test your map thoroughly before uploading to the Workshop to ensure the quality of the map and a fluid player experience.
 
-[在此](/start/basic-operation.md#测试地图)查看测图模式用法。
+Check out how to use maptest mode [here](/start/basic-operation.md#测试地图).
 
-## 飞行测试
+## Flying test
 
-可供参考的检查内容有：
+Tick all the boxes below:
 
-- 地图信息
-- 衔接与对齐
-- 缺面补面
-- 穿模与闪烁
-- 元件堆叠（尤其注意叠钥匙和叠门）
-- 护栏位置
-- 死亡区覆盖（尤其是低重力、反重力、大力弹盒等环境下，注意考虑封侧面和封盖）
-- 生命球摆布：是否容易吃到，是否存在多命 / 可刷命现象
-- 推球推箱宽容度和接缝处理
+- LevelInfo
+- Cohesion and alignment
+- Missing faces
+- Clipping and flickering
+- Object stacking and duplication (Especially keys and doors)
+- Location of `GuardRail`(s)
+- Coverage of `DeathBox`: Pay attention to sides or even ceiling under the circumstances of low-gravity, anti-gravity and/or JumpBox with large `jumpForce`
+- Arrangement of `LifeBall`(s): Are they accessible? Edge cases of *accidentally* obtaining lives multiple times, or even life farming?
+- Tolerance regarding prop ball/box maneuvering & gap handling
 
-以及一些额外项目：
+And some extras:
 
-- 性能优化：控制装饰规模，谨慎制作文件大小超过 1MB 的图
-- 装饰体例：例如路灯高度，底柱位置
-- 捷径发现：尝试各种操作，发现并决定是否封堵捷径（尤其是跨小节带钥匙 ~~带着五把钥匙进终点~~）
-- 中间死亡区检查：是否合理覆盖，是否意外阻断了过关路线。切记：**不要使用隐形墙和死亡区封堵路线和捷径！**
-- 精密机关校验：如果一些机关有精密要求（例如创意堆放、自动图），多加测试确保其满足要求
+- Performance optimization: limit the scale of decorations. Keep your map size under 1MB if possible.
+- Size of decoration: height of `Light`, location of `Pillar`
+- Shortcut observation: Find out if there's any excessive shortcuts introduced by unexpected operations and/or routines, determine whether to block them. (Especially cross-section keys ~~finish with 5 keys~~)
+- In-between `DeathBox` check: Proper coverage? Accidental blockage of expected routes? Be aware: **DO NOT use `S_InvisibleRoad` or `DeathBox` to block routes or shortcuts！**
+- Verification of precise mechanisms: If precision are required by any specific mechanisms(e.g. automatic map), put them on extensive tests to ensure them working properly.
 
-## 玩家视角测试
+## Test in player's perspective
 
-现在，不使用飞行和跳节功能，以玩家视角完整巡回地图。可供参考的检查内容有：
+Do not use flying & Move2Next functionality for now, and walkthrough the whole map in player's perspective.
 
-- 所有机关是否正常运作（不要再重蹈能力训练 3 的覆辙！）
-- 难度控制：减少坑点，避免初见杀，杜绝尾杀，不做“南孚”超长节
-- 逻辑检查：确保推理链完整，必要处提示到位，规避反直觉操作（例如骑两翼板横杆、无端触发器），切勿沦为“密室逃脱”
-- 玩家视野确认：尝试 4:3 分辨率，确保玩家视野能观察到所有解迷要素
-- 寻找其他玩家共同测试地图
+Tick all the boxes below:
+
+- Fully operational machinery (Do not repeat the mistakes of Ability Training 3!)
+- Difficulty control: Avoid wtf moments: no <ruby>first-attempt pitfalls<rt>初見殺し</rt></ruby> or before-the-finish-line troll. Also, avoid super-duper-long sections.
+- Logic check: Ensure a complete chain of reasoning. Provide adequate hints when necessary. Avoid counter-intuitive requirements(go across the bar of `M_TurnBoard2`, nonsense triggers), no more "Room escape" clones (if you're not intended to)
+- Player FOV check: Try out 4:3 resolutions, make sure all the necessary elements of puzzle solving are within player's field of view
+- Reach out to other maptesters
