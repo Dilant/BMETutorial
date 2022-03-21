@@ -1,0 +1,18 @@
+{
+  "name": "bme-tutorial",
+  "version": "3.5.3b2",
+  "description": "Ballex 制图教程的 VuePress 源码",
+  "private": true,
+  "scripts": {
+    "check-md": "check-md -p vuepress -c src",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "sh deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
+    "@vuepress/plugin-shiki": "^2.0.0-beta.36",
+    "check-md": "git+ssh://git@github.com:Dilant/check-md.git#master",
+    "vuepress": "^2.0.0-beta.36"
+  }
+}
