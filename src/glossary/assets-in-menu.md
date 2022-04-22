@@ -57,7 +57,7 @@
 
 ### `InitialBallType`
 
-出生球种。木球 `WoodenBall`，石球 `StoneBall`，纸球 `PaperBall`，冰球 `IceBall`，钢球 `IronBall`，橡胶球 `RubberBall`，光球 `GlowBall`。
+出生球种。木球 `WoodenBall`，石球 `StoneBall`，纸球 `PaperBall`，冰球 `IceBall`，钢球 `IronBall`，橡胶球 `RubberBall`，发光球 `GlowBall`。
 
 ## 文字
 
@@ -112,6 +112,7 @@
 性质：
 
 - 固定元件
+- 进入时扳机
 - 玩家球死亡时，将重置所有机关，从最后点亮的存档点重生
 - X 号存档点是第 X+1 节的开头。_请勿遗漏 1 号存档点！_
 - 存档点必须从 1 号开始按顺序点亮，点亮所有存档点后才能点亮终点

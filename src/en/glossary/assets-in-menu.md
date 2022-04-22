@@ -112,6 +112,7 @@ Save points and destination don't support scaling. Plus, rotating them along `X`
 Properties:
 
 - Fixed object
+- Enter to trigger
 - You'll reborn at the last save point with all machinery reset if you die
 - Save point #X is the beginning of section #(X+1). _Don't forget save point #1!_
 - Save points must be activated sequentially from #1, and destination can be activated only after all save points have been activated

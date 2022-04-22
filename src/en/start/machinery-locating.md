@@ -13,6 +13,6 @@ No matter what, the most important thing to bear in mind is **making sure machin
 
 ::: tip
 
-z2414 offers a [standardized assets pack](/assets/Standard-Assets-Pack-by-z2414.bpk) for some common machinery patterns. ([How to use?](/en/start/alignment.md#cheat-alignment))
+z2414 offers a [standardized assets pack](/assets/Standard-Assets-Pack-by-z2414.bms) for some common machinery patterns. ([How to use?](/en/start/alignment.md#cheat-alignment))
 
 :::

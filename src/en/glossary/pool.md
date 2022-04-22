@@ -7,6 +7,7 @@ Named as `WP_axb`. `a` `b` refer to length and width, they don't distinguish wit
 Properties:
 
 - Fixed object
+- Enter to trigger, and exit to trigger
 - Paper ball, ice ball, rubber ball and wooden ball float on water. The buoyancy is related to gravity acceleration of the scene. _That is to say, there's no buoyancy in universe scene._
 - The direction of buoyancy is always straight up, **which is irrelevant to the posture of the pool**. Don't place a pool upside down as a trap
 - Paper ball loses durability rapidly when it meets water. Most turns into recoverable durability (the lighter bar), and the remaining part drains

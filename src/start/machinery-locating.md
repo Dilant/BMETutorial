@@ -13,6 +13,6 @@
 
 ::: tip
 
-对于部分机关，z2414 提供了一个[标准化元件包](/assets/Standard-Assets-Pack-by-z2414.bpk)。（[怎么用？](/start/alignment.md#借位对齐)）
+对于部分机关，z2414 提供了一个[标准化元件包](/assets/Standard-Assets-Pack-by-z2414.bms)。（[怎么用？](/start/alignment.md#借位对齐)）
 
 :::
