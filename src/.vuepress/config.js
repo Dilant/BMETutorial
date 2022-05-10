@@ -1,3 +1,7 @@
+const { defaultTheme } = require("vuepress");
+const { shikiPlugin } = require("@vuepress/plugin-shiki");
+const { docsearchPlugin } = require("@vuepress/plugin-docsearch");
+
 module.exports = {
   head: [["link", { rel: "icon", href: "/ballex.ico" }]],
   locales: {
@@ -13,7 +17,7 @@ module.exports = {
     },
   },
 
-  themeConfig: {
+  theme: defaultTheme({
     repo: "Dilant/BMETutorial",
     docsBranch: "master",
     docsDir: "src",
@@ -408,29 +412,28 @@ module.exports = {
         },
       },
     },
-  },
+  }),
 
   markdown: {
     breaks: true,
   },
 
   plugins: [
-    ["@vuepress/plugin-shiki", { theme: "dark-plus" }],
-    [
-      "@vuepress/docsearch",
-      {
-        appId: "Q409HCH0AR",
-        apiKey: "c730727a0cff094aa2c23cc2643fbbb9",
-        indexName: "BMETutorial",
-        locales: {
-          "/": {
-            placeholder: "搜索",
-          },
-          "/en/": {
-            placeholder: "Search",
-          },
+    shikiPlugin({
+      theme: "dark-plus",
+    }),
+    docsearchPlugin({
+      appId: "Q409HCH0AR",
+      apiKey: "c730727a0cff094aa2c23cc2643fbbb9",
+      indexName: "BMETutorial",
+      locales: {
+        "/": {
+          placeholder: "搜索",
+        },
+        "/en/": {
+          placeholder: "Search",
         },
       },
-    ],
+    }),
   ],
 };

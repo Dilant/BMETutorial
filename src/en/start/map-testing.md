@@ -33,8 +33,8 @@ And some extras:
   - Location of pillars
 - Shortcut observation
   - Find out if there's any excessive shortcuts introduced by unexpected operations or routines, and determine whether to block them
-  - Especially cross-section keys ~~entering destination with 5 keys~~
-- In-between death zonecheck
+  - Especially cross-section keys ~~Entering destination with 5 keys~~
+- In-between death zone check
   - Proper coverage?
   - Accidental blockage of expected routes?
   - Be aware: **DO NOT use invisible blocks or death zones to block routes or shortcuts!**
@@ -67,5 +67,4 @@ Tick all the boxes below:
     - Nonsense triggers
   - No more room escape clones
 - Player FOV check
-  - Try out 4:3 resolutions, make sure all the necessary elements of puzzle solving are within player's field of view
 - Reach out to other map testers
