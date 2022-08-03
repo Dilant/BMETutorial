@@ -10,7 +10,7 @@ Ballex and BME can be launched from local directory. Ensure that:
 
 - Steam is launched and logged in
 - The file `steam_appid.txt` with content `1114430` is in the executable directory
-- Manually restart Steam if it's started automatically by other tools (e.g. Steam++ or SteamCommunity302)
+- Manually relaunch Steam if it's launched automatically by other tools (e.g. Steam++ or SteamCommunity302)
 
 :::
 
