@@ -11,16 +11,16 @@
 
 ## 工具栏
 
-| 操作                                                           | 快捷键     |
-| -------------------------------------------------------------- | ---------- |
-| [撤销](/start/basic-operation.md#撤销与还原)                   | `Ctrl + Z` |
-| [还原](/start/basic-operation.md#撤销与还原)                   | `Ctrl + Y` |
-| [观察模式](/start/basic-operation.md#观察模式)                 | `Q`        |
-| [移动模式](/start/basic-operation.md#移动模式)                 | `W`        |
-| [旋转模式](/start/basic-operation.md#旋转模式)                 | `E`        |
-| [缩放模式](/start/basic-operation.md#缩放模式)                 | `R`        |
-| [坐标系调整](/advanced/axis-and-origin.md#切换惯性系-自然系)   | `X`        |
-| [轴心调整](/advanced/axis-and-origin.md#切换合并-分离轴心模式) | `Z`        |
+| 操作                                                                 | 快捷键     |
+| -------------------------------------------------------------------- | ---------- |
+| [撤销](/start/basic-operation.md#撤销与还原)                         | `Ctrl + Z` |
+| [还原](/start/basic-operation.md#撤销与还原)                         | `Ctrl + Y` |
+| [观察模式](/start/basic-operation.md#观察模式)                       | `Q`        |
+| [移动模式](/start/basic-operation.md#移动模式)                       | `W`        |
+| [旋转模式](/start/basic-operation.md#旋转模式)                       | `E`        |
+| [缩放模式](/start/basic-operation.md#缩放模式)                       | `R`        |
+| [坐标系调整](/advanced/axis-and-origin.md#切换世界参考基-物体连体基) | `X`        |
+| [轴心调整](/advanced/axis-and-origin.md#切换合并-分离轴心模式)       | `Z`        |
 
 ::: tip
 

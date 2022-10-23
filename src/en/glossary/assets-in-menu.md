@@ -94,7 +94,7 @@ Properties:
 
 - Can change its name by slowly clicking twice
 - Can be cascaded
-- The coordinate of objects in the folder is relative to natural axis of the folder
+- The coordinate of objects in the folder is relative to the self axis of the folder
 - When exporting maps, all objects will be exported **with its own position and posture**. **Please ensure that every folder uses its initial position and posture parameters** to avoid malposition
 
 ## Save Point and Destination

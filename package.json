@@ -2,7 +2,17 @@
   "name": "bme-tutorial",
   "version": "3.5.3b2",
   "description": "Ballex 制图教程的 VuePress 源码",
-  "private": true,
+  "engines": {
+    "node": ">=18",
+    "yarn": ">=1.22"
+  },
+  "homepage": "https://ballex.dilant.cn/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dilant/BMETutorial.git"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "private": "true",
   "scripts": {
     "check-md": "check-md -p vuepress -c src",
     "dev": "vuepress dev src",
@@ -10,9 +20,9 @@
     "deploy": "sh deploy.sh"
   },
   "devDependencies": {
-    "@vuepress/plugin-shiki": "^2.0.0-beta.49",
+    "@vuepress/plugin-shiki": "2.0.0-beta.49",
     "check-md": "git+ssh://git@github.com:Dilant/check-md.git#master",
-    "vuepress": "^2.0.0-beta.49",
-    "vuepress-plugin-next-search": "^0.0.5"
+    "vuepress": "2.0.0-beta.49",
+    "vuepress-plugin-next-search": "git+ssh://git@github.com:Dilant/vuepress-plugin-next-search.git#main"
   }
 }

@@ -11,16 +11,16 @@
 
 ## Toolbar
 
-| Operation                                                                  | Shortcut   |
-| -------------------------------------------------------------------------- | ---------- |
-| [Undo](/en/start/basic-operation.md#undo-and-redo)                         | `Ctrl + Z` |
-| [Redo](/en/start/basic-operation.md#undo-and-redo)                         | `Ctrl + Y` |
-| [Spectator Mode](/en/start/basic-operation.md#spectator-mode)              | `Q`        |
-| [Moving Mode](/en/start/basic-operation.md#moving-mode)                    | `W`        |
-| [Rotation Mode](/en/start/basic-operation.md#rotation-mode)                | `E`        |
-| [Scaling Mode](/en/start/basic-operation.md#scaling-mode)                  | `R`        |
-| [Axis Adjustment](/en/advanced/axis-and-origin.md#切换惯性系-自然系)       | `X`        |
-| [Origin Adjustment](/en/advanced/axis-and-origin.md#切换合并-分离轴心模式) | `Z`        |
+| Operation                                                                    | Shortcut   |
+| ---------------------------------------------------------------------------- | ---------- |
+| [Undo](/en/start/basic-operation.md#undo-and-redo)                           | `Ctrl + Z` |
+| [Redo](/en/start/basic-operation.md#undo-and-redo)                           | `Ctrl + Y` |
+| [Spectator Mode](/en/start/basic-operation.md#spectator-mode)                | `Q`        |
+| [Moving Mode](/en/start/basic-operation.md#moving-mode)                      | `W`        |
+| [Rotation Mode](/en/start/basic-operation.md#rotation-mode)                  | `E`        |
+| [Scaling Mode](/en/start/basic-operation.md#scaling-mode)                    | `R`        |
+| [Axis Adjustment](/en/advanced/axis-and-origin.md#切换世界参考基-物体连体基) | `X`        |
+| [Origin Adjustment](/en/advanced/axis-and-origin.md#切换合并-分离轴心模式)   | `Z`        |
 
 ::: tip
 

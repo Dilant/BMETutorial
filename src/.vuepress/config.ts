@@ -1,8 +1,9 @@
-const { defaultTheme } = require("vuepress");
-const { shikiPlugin } = require("@vuepress/plugin-shiki");
-const { nextSearchPlugin } = require("vuepress-plugin-next-search");
+import { defineUserConfig } from "vuepress";
+import { defaultTheme } from "vuepress";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
+import { nextSearchPlugin } from "vuepress-plugin-next-search";
 
-module.exports = {
+export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/ballex.ico" }]],
   locales: {
     "/": {
@@ -106,10 +107,8 @@ module.exports = {
         sidebar: {
           "/start/": [
             {
-              isGroup: true,
               text: "起步",
               link: "/start/",
-              collapsable: false,
               children: [
                 "preparation.md",
                 "basic-operation.md",
@@ -129,10 +128,8 @@ module.exports = {
 
           "/advanced/": [
             {
-              isGroup: true,
               text: "进阶",
               link: "/advanced/",
-              collapsable: false,
               children: [
                 "axis-and-origin.md",
                 "advanced-rail-concatenating.md",
@@ -143,10 +140,8 @@ module.exports = {
 
           "/glossary/": [
             {
-              isGroup: true,
               text: "图鉴",
               link: "/glossary/",
-              collapsable: false,
               children: [
                 "assets-in-menu.md",
                 "extras.md",
@@ -165,19 +160,15 @@ module.exports = {
 
           "/migration/": [
             {
-              isGroup: true,
               text: "版本迁移",
-              collapsable: false,
               children: ["guide.md", "changelog.md"],
             },
           ],
 
           "/weekly/": [
             {
-              isGroup: true,
               text: "Ballex 周报",
               link: "/weekly/",
-              collapsable: false,
               sidebarDepth: 0,
               children: [
                 {
@@ -342,10 +333,8 @@ module.exports = {
         sidebar: {
           "/en/start/": [
             {
-              isGroup: true,
               text: "Start",
               link: "/en/start/",
-              collapsable: false,
               children: [
                 "preparation.md",
                 "basic-operation.md",
@@ -365,10 +354,8 @@ module.exports = {
 
           "/en/advanced/": [
             {
-              isGroup: true,
               text: "Advanced",
               link: "/en/advanced/",
-              collapsable: false,
               children: [
                 "axis-and-origin.md",
                 "advanced-rail-concatenating.md",
@@ -379,10 +366,8 @@ module.exports = {
 
           "/en/glossary/": [
             {
-              isGroup: true,
               text: "Glossary",
               link: "/en/glossary/",
-              collapsable: false,
               children: [
                 "assets-in-menu.md",
                 "extras.md",
@@ -401,9 +386,7 @@ module.exports = {
 
           "/en/migration/": [
             {
-              isGroup: true,
               text: "Versioning",
-              collapsable: false,
               children: ["guide.md", "changelog.md"],
             },
           ],
@@ -422,6 +405,25 @@ module.exports = {
     shikiPlugin({
       theme: "dark-plus",
     }),
-    nextSearchPlugin({}),
+    nextSearchPlugin({
+      locales: {
+        "/": {
+          fullText: true,
+          placeholder: "搜索……",
+          frontmatter: {
+            tag: "标签",
+            category: "分类",
+          },
+        },
+        "/en/": {
+          fullText: true,
+          placeholder: "Search...",
+          frontmatter: {
+            tag: "Tag",
+            category: "Category",
+          },
+        },
+      },
+    }),
   ],
-};
+});

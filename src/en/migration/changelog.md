@@ -4,7 +4,7 @@
 
 - New assets `Assets → ...`
   - Triangle prism `02_Machinery → M_TriPrismB1`
-  - A fixed corner creator `04_StoneRoad → 10_CornerCreator → CornerCreator5_5Fix`
+  - A fixed piece of corner creator `04_StoneRoad → 10_CornerCreator → CornerCreator5_5Fix`
 - The default project changes from `MyBallexMap` to `NewProject`
 - From now on new versions of BME will be deployed to Steam
 
@@ -13,8 +13,8 @@
 - New features
   - Import `.bitem` custom objects made by BME Pro `File → Unpack BItem`
 - Known bugs
-  - Can't open maps with texts made by earlier versions <badge text="3.5.3b2" type="warning"/>
-  - Can't upload maps with custom items <badge text="3.5.3b2"/>
+  - ~~Can't open maps with texts made by earlier versions~~ <badge text="3.5.3b2" type="warning"/>
+  - ~~Can't upload maps with custom items~~ <badge text="3.5.3b2"/>
 
 ## 3.4b3 → 3.5.1b1
 
@@ -35,7 +35,7 @@
 - New features
   - Set Ballex path (will launch automatically upon maptest) `Settings → Set Ballex Path`
 - Known bugs
-  - Manually exported `.bpk` files don't include adjustable objects <badge text="Not fixed" type="danger"/>
+  - Manually exported `.bpk` files don't include adjustable objects
 
 ## 3.3.0b5 → 3.3.1b2
 
@@ -55,7 +55,7 @@
   - Fix all texts `Edit → Fix Text`
   - Show player ball's coordinate in maptest
 - Known bugs
-  - Can't select or multi-select portals added directory (but ones unpacked from `.bpk` files can) <badge text="Not fixed" type="danger"/>
+  - Can't select or multi-select portals added directory (but ones unpacked from `.bpk` files can)
 
 ## 3.2b11 → 3.3.0b5
 
@@ -67,11 +67,11 @@
 - Removed features
   - Maptester (replaced by in-game maptest)
 - Known bugs
-  - The texture problems are relieved but not solved <badge text="3.3.1b2"/>
-  - Can't re-export unpacked `.bpk` maps due to corrupted text <badge text="3.3.1b2"/>
-  - Wrong model of `CornerCreator5_2` `CornerCreator5_3` <badge text="3.3.1b2"/>
-  - Wrong model of `CornerCreator5_5` <badge text="3.5.3b2"/>
-  - Haze background is missing when taking screenshots <badge text="3.3.1b2"/>
+  - ~~The texture problems are relieved but not solved~~ <badge text="3.3.1b2"/>
+  - ~~Can't re-export unpacked `.bpk` maps due to corrupted text~~ <badge text="3.3.1b2"/>
+  - ~~Wrong model of `CornerCreator5_2` `CornerCreator5_3`~~ <badge text="3.3.1b2"/>
+  - ~~Wrong model of `CornerCreator5_5`~~ <badge text="3.5.3b2"/>
+  - ~~Haze background is missing when taking screenshots~~ <badge text="3.3.1b2"/>
   - Can't select or multi-select portals <badge text="3.3.1b2" type="warning"/>
 
 ## 3.2b9 → 3.2b11
@@ -85,7 +85,7 @@
 - New weather `LevelInfo → Time → ...`
   - Haze `Haze`
 - Known bugs
-  - Most assets lose their texture in BME (but behave well in game) <badge text="3.3.1b2"/>
+  - ~~Most assets lose their texture in BME (but behave well in game)~~ <badge text="3.3.1b2"/>
 
 ## 3.1 → 3.2b9
 
@@ -95,15 +95,15 @@
   - Tube `09_Tube → *`
     - Wooden tube adapters
     - Plastic tube adapters
-  - Experimental assets `10_[Experimental]Adjustable → *`
-    - Adjustable road blocks
-    - Adjustable texture blocks (except ice blocks)
-    - ST guardrails
-    - Straight tube
+  - ~~Experimental assets `10_[Experimental]Adjustable → *`~~
+    - ~~Adjustable road blocks~~
+    - ~~Adjustable texture blocks (except ice blocks)~~
+    - ~~ST guardrails~~
+    - ~~Straight tube~~
 - New scenes `LevelInfo → Scene → ...`
   - Morning glow `MorningGlow`
   - Sunset glow `SunsetGlow`
   - Abyss `Abyss`
 - Known bugs
-  - Maptester works improperly with new assets <badge text="3.3.0b5"/>
-  - Can't multi-select T boards, pianos, pushers, laser-locked doors or laser pushes <badge text="Not fixed" type="danger"/>
+  - ~~Maptester works improperly with new assets~~ <badge text="3.3.0b5"/>
+  - Can't multi-select T boards, pianos, pushers, laser-locked doors or laser pushes
