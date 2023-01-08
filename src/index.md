@@ -7,5 +7,5 @@ actions:
   - text: 快速上手 →
     link: /start/
     type: primary
-footer: 2022 Dilant
+footer: 2023 Dilant
 ---

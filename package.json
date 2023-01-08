@@ -3,7 +3,7 @@
   "version": "3.5.3b2",
   "description": "Ballex 制图教程的 VuePress 源码",
   "engines": {
-    "node": ">=18",
+    "node": ">=19",
     "yarn": ">=1.22"
   },
   "homepage": "https://ballex.dilant.cn/",
@@ -20,9 +20,9 @@
     "deploy": "sh deploy.sh"
   },
   "devDependencies": {
-    "@vuepress/plugin-shiki": "2.0.0-beta.49",
+    "@vuepress/plugin-shiki": "2.0.0-beta.60",
     "check-md": "git+ssh://git@github.com:Dilant/check-md.git#master",
-    "vuepress": "2.0.0-beta.49",
-    "vuepress-plugin-next-search": "git+ssh://git@github.com:Dilant/vuepress-plugin-next-search.git#main"
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-plugin-search-pro": "^2.0.0-beta.152"
   }
 }
