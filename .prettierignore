@@ -3,5 +3,4 @@ src/.vuepress/dist/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 
-.vscode/
-deploy.sh
+pnpm-lock.yaml

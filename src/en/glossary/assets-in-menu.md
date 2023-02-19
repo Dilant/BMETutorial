@@ -118,5 +118,5 @@ Properties:
 - Save points must be activated sequentially from #1, and destination can be activated only after all save points have been activated
 - If save point numbers is not a continuous sequence starting from 1, you can export but never pass the map
 - If there're multiple save points with same number, the first added one is valid and others will disappear
-- In order to ensure the that the map is loaded correctly, intersecting start point and destination will cause game over. Please place the destination beside (e.g. behind) the start point if needed
+- In order to ensure the that the map is loaded correctly, any rigid body entering the destination during birth animation will immediately lead to game over
   See: [Walkthrough of _<ruby>Kou Yu Challenge #10: Rise up from Death<rt>口语挑战 10：置之死地而后生</rt></ruby>_](https://www.bilibili.com/video/BV1Xz4y1m7GC)

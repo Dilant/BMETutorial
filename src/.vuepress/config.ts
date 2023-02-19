@@ -31,6 +31,8 @@ export default defineUserConfig({
       theme: "dark-plus",
     }),
     searchProPlugin({
+      delay: 1000,
+      hotKeys: [],
       indexContent: true,
     }),
   ],

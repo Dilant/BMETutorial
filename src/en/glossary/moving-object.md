@@ -17,7 +17,7 @@ The list contains its `Size` and index of each waypoint `Element *`. The object 
 - Stay, whose time is defined by `stayTime` of `Element 1`
 - Transform to `Element 2`
 - Stay, whose time is defined by `stayTime` of `Element 2`
-- ..
+- ...
 - Transform to `Element n`
 - Stay, whose time is defined by `stayTime` of `Element n`
 - Transform to `Element 0`
