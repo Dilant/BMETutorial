@@ -9,7 +9,7 @@ The recommendation for beginners are:
 
 ::: tip
 
-In order to prevent potential misuse, the start part won't include any content regarding single rails.
+In order to prevent potential misuse, the start section won't include any content regarding single rails.
 
 Due to the 20rad/s angular velocity cap on all of the objects in Ballex, vertical rails are not recommended. Vertical helixes are **highly** discouraged.
 

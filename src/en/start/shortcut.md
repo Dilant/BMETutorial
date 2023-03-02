@@ -24,7 +24,7 @@
 
 ::: tip
 
-Axis and origin adjustment will be talked about in [advanced](/en/advanced/) part.
+Axis and origin adjustment will be talked about in [advanced](/en/advanced/) section.
 
 :::
 

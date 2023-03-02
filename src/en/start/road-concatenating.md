@@ -72,7 +72,7 @@ Most assets in `04_StoneRoad → 6_CrossRoad` are deprecated.
 - Pick and use items in `04_StoneRoad → 7_Helix` `04_StoneRoad → 8_Circle`
 - Setting `scaleZ = -1` will flip a helix to its opposite direction
 
-In order to create more complex road curves, [subdividing-adjustable objects](/en/glossary/adjustable-object.md) are required, which will be introduced in [advanced](/en/advanced/) part.
+In order to create more complex road curves, [subdividing-adjustable objects](/en/glossary/adjustable-object.md) are required, which will be introduced in [advanced](/en/advanced/) section.
 
 ## Dealing with Missing Face
 
