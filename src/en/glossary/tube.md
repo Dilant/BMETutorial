@@ -8,7 +8,7 @@ Properties:
 
 - Fixed object
 - Wooden tubes are not transparent, plastic ones are transparent, and ice ones are slightly transparent (with poor visibility)
-- Ice tubes don't block laser
+- Ice tubes don't block the laser
 - Paper ball can be stuck in the tube, so be cautious to use such design
 
 ::: tip

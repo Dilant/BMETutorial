@@ -60,7 +60,7 @@ Tick all the boxes below:
   - Avoid counter-intuitive requirements
     - Jumping down from the fence
     - Going across the bar of a 2-way board
-    - Iron ball forcing a way towards laser
+    - Iron ball forcing a way towards the laser
     - Ice ball flying across a 2-unit-wide gap
     - Jump boxes with no force
     - Nonsense constant acceleration fields

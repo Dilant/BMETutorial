@@ -2,9 +2,9 @@
 
 `04_StoneRoad`
 
-性质：
+Properties:
 
-- 固定元件
+- Fixed object
 - 部分路面有缺面，若缺面暴露，请务必使用封盖或其它合适的元件封闭缺面
 
 ::: tip

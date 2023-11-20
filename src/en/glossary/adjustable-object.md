@@ -2,10 +2,10 @@
 
 `10_AdjustableRoad`
 
-性质：
+Properties:
 
-- 固定元件
-- ~~没了。~~
+- Fixed object
+- ~~Nothing else~~
 
 标识说明：
 

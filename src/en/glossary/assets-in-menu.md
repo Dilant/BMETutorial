@@ -69,7 +69,7 @@ A text has 3 parameters: `textContent`, `textSize` and `textColor`. Click `gener
 
 Properties:
 
-- Kinematics object following the setting of waypoints
+- Kinematics object, following the setting of waypoints
 - No collision
 - Supports unicode characters
 - Max text size is 50

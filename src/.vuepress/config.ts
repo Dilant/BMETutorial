@@ -5,6 +5,8 @@ import { theme } from "./theme";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
+import { cut } from "nodejs-jieba";
+
 export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/ballex.ico" }]],
   locales: {
@@ -31,9 +33,17 @@ export default defineUserConfig({
       theme: "dark-plus",
     }),
     searchProPlugin({
-      searchDelay: 1000,
-      hotKeys: [],
       indexContent: true,
+      searchDelay: 1000,
+      autoSuggestions: false,
+      hotKeys: [],
+      indexLocaleOptions: {
+        "/": {
+          // tokenize the content with nodejs-jieba
+          tokenize: (text, fieldName) =>
+            fieldName === "id" ? [text] : cut(text, true),
+        },
+      },
     }),
   ],
 });

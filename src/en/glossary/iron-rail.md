@@ -2,9 +2,9 @@
 
 `03_IronRail`
 
-性质：
+Properties:
 
-- 固定元件
+- Fixed object
 - 部分钢轨两端缺面，若缺面暴露，请务必使用没有缺面的短钢轨封闭缺面
 
 ::: tip
